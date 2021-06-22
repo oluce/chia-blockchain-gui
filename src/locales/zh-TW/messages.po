@@ -64,7 +64,7 @@ msgstr "動作"
 #: src/components/farm/FarmFullNodeConnections.tsx:57
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:61
 #: src/components/fullNode/FullNodeConnections.tsx:65
-#: src/components/pool/PoolOverview.tsx:61
+#: src/components/pool/PoolOverview.tsx:62
 msgid "Actions"
 msgstr "動作"
 
@@ -80,7 +80,7 @@ msgstr "新增耕地資料夾"
 msgid "Add Plot to Queue"
 msgstr "新增耕地至隊列"
 
-#: src/components/wallet/Wallets.tsx:110
+#: src/components/wallet/Wallets.tsx:99
 msgid "Add Wallet"
 msgstr "新增錢包"
 
@@ -88,7 +88,7 @@ msgstr "新增錢包"
 #: src/components/plot/PlotHeader.tsx:54
 #: src/components/plot/add/PlotAdd.tsx:152
 #: src/components/plot/overview/PlotOverviewHero.tsx:40
-#: src/components/plotNFT/PlotNFTCard.tsx:153
+#: src/components/plotNFT/PlotNFTCard.tsx:161
 msgid "Add a Plot"
 msgstr "新增耕地"
 
@@ -104,9 +104,9 @@ msgstr "新增耕地"
 msgid "Add plot directory"
 msgstr "新增耕地資料夾"
 
-#: src/components/wallet/coloured/WalletColoured.tsx:569
-#: src/components/wallet/coloured/WalletColoured.tsx:672
-#: src/components/wallet/standard/WalletStandard.tsx:570
+#: src/components/wallet/coloured/WalletColoured.tsx:574
+#: src/components/wallet/coloured/WalletColoured.tsx:677
+#: src/components/wallet/standard/WalletStandard.tsx:577
 msgid "Address"
 msgstr "位址"
 
@@ -124,7 +124,7 @@ msgstr "位址 / 拼圖雜湊值"
 msgid "Amount"
 msgstr "數量"
 
-#: src/components/wallet/coloured/WalletColoured.tsx:590
+#: src/components/wallet/coloured/WalletColoured.tsx:595
 msgid "Amount ({cc_unit})"
 msgstr "數量 ({cc_unit})"
 
@@ -167,9 +167,9 @@ msgstr "返回"
 msgid "Backup file is used to restore smart wallets."
 msgstr "備份檔案可用於復原智慧錢包。"
 
-#: src/components/wallet/coloured/WalletColoured.tsx:376
+#: src/components/wallet/coloured/WalletColoured.tsx:381
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:562
-#: src/components/wallet/standard/WalletStandard.tsx:247
+#: src/components/wallet/standard/WalletStandard.tsx:245
 msgid "Balance"
 msgstr "餘額"
 
@@ -245,7 +245,7 @@ msgstr "但你目前耕種 <0/>"
 msgid "Buy"
 msgstr "購買"
 
-#: src/components/wallet/Wallets.tsx:59
+#: src/components/wallet/Wallets.tsx:60
 msgid "CC Wallet"
 msgstr "CC 錢包"
 
@@ -283,13 +283,13 @@ msgstr "挑戰"
 msgid "Challenge Hash"
 msgstr "挑戰雜湊值"
 
-#: src/components/plotNFT/PlotNFTChangePool.tsx:97
+#: src/components/plotNFT/PlotNFTChangePool.tsx:101
 msgid "Change"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:211
-#: src/components/plotNFT/PlotNFTChangePool.tsx:96
-#: src/components/pool/PoolOverview.tsx:93
+#: src/components/plotNFT/PlotNFTCard.tsx:223
+#: src/components/plotNFT/PlotNFTChangePool.tsx:100
+#: src/components/pool/PoolOverview.tsx:94
 msgid "Change Pool"
 msgstr ""
 
@@ -305,7 +305,7 @@ msgstr "Chia"
 msgid "Chia Blockchain Wiki"
 msgstr "Chia 區塊鏈維基"
 
-#: src/components/wallet/Wallets.tsx:56
+#: src/components/wallet/Wallets.tsx:57
 msgid "Chia Wallet"
 msgstr "Chia 錢包"
 
@@ -317,8 +317,8 @@ msgstr "選擇耕地數量"
 msgid "Choose Plot Size"
 msgstr "選擇耕地大小"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:190
-#: src/components/pool/PoolOverview.tsx:77
+#: src/components/plotNFT/PlotNFTCard.tsx:200
+#: src/components/pool/PoolOverview.tsx:78
 msgid "Claim Rewards"
 msgstr ""
 
@@ -340,7 +340,7 @@ msgstr "幣種："
 msgid "Colour"
 msgstr "顏色"
 
-#: src/components/wallet/coloured/WalletColoured.tsx:220
+#: src/components/wallet/coloured/WalletColoured.tsx:225
 msgid "Colour Info"
 msgstr "顏色資訊"
 
@@ -348,7 +348,7 @@ msgstr "顏色資訊"
 msgid "Colour String"
 msgstr "顏色字串"
 
-#: src/components/wallet/coloured/WalletColoured.tsx:226
+#: src/components/wallet/coloured/WalletColoured.tsx:231
 msgid "Colour:"
 msgstr "顏色："
 
@@ -360,6 +360,7 @@ msgstr "有色代幣"
 msgid "Coloured Coin Options"
 msgstr "有色代幣選項"
 
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:148
 #: src/electron/main.tsx:195
 #: src/hooks/useAbsorbRewards.tsx:45
 msgid "Confirm"
@@ -424,11 +425,11 @@ msgstr "在 GitHub 上貢獻"
 msgid "Copied"
 msgstr "已複製"
 
-#: src/components/wallet/coloured/WalletColoured.tsx:686
+#: src/components/wallet/coloured/WalletColoured.tsx:691
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:314
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:442
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:505
-#: src/components/wallet/standard/WalletStandard.tsx:583
+#: src/components/wallet/standard/WalletStandard.tsx:590
 msgid "Copy"
 msgstr "複製"
 
@@ -474,7 +475,7 @@ msgstr "建立速率限制使用者錢包"
 msgid "Create Trade Offer"
 msgstr "建立貿易提案"
 
-#: src/components/wallet/coloured/WalletColoured.tsx:550
+#: src/components/wallet/coloured/WalletColoured.tsx:555
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:729
 #: src/components/wallet/standard/WalletStandard.tsx:442
 msgid "Create Transaction"
@@ -536,11 +537,11 @@ msgstr ""
 msgid "Currency code is not defined"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:118
+#: src/components/plotNFT/PlotNFTCard.tsx:106
 msgid "Current Difficulty"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:122
+#: src/components/plotNFT/PlotNFTCard.tsx:121
 msgid "Current Points Balance"
 msgstr ""
 
@@ -552,7 +553,7 @@ msgstr "目前貿易狀態"
 msgid "DANGER: permanently delete private key"
 msgstr "危險：將永久刪除私鑰"
 
-#: src/components/wallet/Wallets.tsx:71
+#: src/components/wallet/Wallets.tsx:64
 msgid "DID Wallet"
 msgstr "DID 錢包"
 
@@ -705,7 +706,7 @@ msgid "Failed to open (invalid plots)"
 msgstr "開啟失敗（無效耕地）"
 
 #: src/components/dashboard/DashboardSideBar.tsx:55
-#: src/components/wallet/coloured/WalletColoured.tsx:622
+#: src/components/wallet/coloured/WalletColoured.tsx:627
 #: src/components/wallet/standard/WalletStandard.tsx:515
 msgid "Farm"
 msgstr "耕種"
@@ -751,7 +752,8 @@ msgstr "耕種中"
 msgid "Farming Status"
 msgstr "耕種狀態"
 
-#: src/components/core/components/Fee/Fee.tsx:51
+#: src/components/core/components/Fee/Fee.tsx:52
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:139
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:128
 #: src/components/pool/PoolInfo.tsx:30
 #: src/components/wallet/WalletHistory.tsx:66
@@ -772,7 +774,7 @@ msgstr "費用"
 #~ msgid "Fee ({0})"
 #~ msgstr "Fee ({0})"
 
-#: src/components/wallet/coloured/WalletColoured.tsx:607
+#: src/components/wallet/coloured/WalletColoured.tsx:612
 msgid "Fee ({currencyCode})"
 msgstr "費用 ({currencyCode})"
 
@@ -829,11 +831,11 @@ msgstr "全畫面"
 msgid "Generate New Colour"
 msgstr "生成新顏色"
 
-#: src/components/pool/PoolOverview.tsx:157
+#: src/components/pool/PoolOverview.tsx:168
 msgid "Grid view"
 msgstr ""
 
-#: src/components/wallet/standard/WalletStandard.tsx:559
+#: src/components/wallet/standard/WalletStandard.tsx:566
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "層及式確定性金鑰是一種公鑰/私鑰格式，一個私鑰可以具有幾乎無限數量的不同公鑰（以此類推，同錢包接收地址），最終所有這些公鑰都將回朔於一個私鑰使用／花用。"
 
@@ -867,7 +869,7 @@ msgstr "協助翻譯"
 msgid "Hide Advanced Options"
 msgstr "隱藏進階選項"
 
-#: src/components/wallet/WalletHistory.tsx:88
+#: src/components/wallet/WalletHistory.tsx:97
 msgid "History"
 msgstr "歷史"
 
@@ -933,8 +935,8 @@ msgstr "初始化速率限制使用者錢包："
 msgid "Interval"
 msgstr "間隔"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:210
-#: src/components/pool/PoolOverview.tsx:92
+#: src/components/plotNFT/PlotNFTCard.tsx:222
+#: src/components/pool/PoolOverview.tsx:93
 msgid "Join Pool"
 msgstr ""
 
@@ -981,15 +983,19 @@ msgstr "最後耕種高度"
 msgid "Latest Block Challenges"
 msgstr "最新區塊挑戰"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:168
+#: src/components/plotNFT/PlotNFTCard.tsx:176
 msgid "Launcher Id"
 msgstr ""
 
-#: src/components/pool/PoolOverview.tsx:157
+#: src/components/plotNFT/PlotNFTState.tsx:46
+msgid "Leaving Pool"
+msgstr ""
+
+#: src/components/pool/PoolOverview.tsx:168
 msgid "List view"
 msgstr ""
 
-#: src/components/pool/Pool.tsx:20
+#: src/components/pool/Pool.tsx:21
 msgid "Loading Plot NFTs"
 msgstr ""
 
@@ -1085,8 +1091,8 @@ msgstr "網路名稱"
 #~ msgid "Network not launched yet, waiting for genesis challenge!"
 #~ msgstr "Network not launched yet, waiting for genesis challenge!"
 
-#: src/components/wallet/coloured/WalletColoured.tsx:701
-#: src/components/wallet/standard/WalletStandard.tsx:598
+#: src/components/wallet/coloured/WalletColoured.tsx:706
+#: src/components/wallet/standard/WalletStandard.tsx:605
 msgid "New Address"
 msgstr "新位址"
 
@@ -1100,7 +1106,7 @@ msgstr "新錢包"
 msgid "Next"
 msgstr "下一步"
 
-#: src/components/wallet/coloured/WalletColoured.tsx:247
+#: src/components/wallet/coloured/WalletColoured.tsx:252
 msgid "Nickname"
 msgstr "暱稱"
 
@@ -1117,7 +1123,7 @@ msgstr "由這個鑰匙是匯入的，沒有 24 個字種子。"
 msgid "No blocks farmed yet"
 msgstr "還沒有耕種收穫到的區塊"
 
-#: src/components/wallet/WalletHistory.tsx:100
+#: src/components/wallet/WalletHistory.tsx:109
 msgid "No previous transactions"
 msgstr "沒有上一個交易"
 
@@ -1169,7 +1175,7 @@ msgstr "未連線"
 msgid "Not found Plots"
 msgstr "沒找到的耕地"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:130
+#: src/components/plotNFT/PlotNFTCard.tsx:89
 msgid "Number of Plots"
 msgstr ""
 
@@ -1219,17 +1225,17 @@ msgid "Pending"
 msgstr "待確認中"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:604
-#: src/components/wallet/standard/WalletStandard.tsx:299
+#: src/components/wallet/standard/WalletStandard.tsx:297
 msgid "Pending Balance"
 msgstr "未結餘額"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:613
-#: src/components/wallet/standard/WalletStandard.tsx:310
+#: src/components/wallet/standard/WalletStandard.tsx:308
 msgid "Pending Change"
 msgstr "未結更動"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:595
-#: src/components/wallet/standard/WalletStandard.tsx:288
+#: src/components/wallet/standard/WalletStandard.tsx:286
 msgid "Pending Total Balance"
 msgstr "未結總餘額"
 
@@ -1331,11 +1337,12 @@ msgstr "耕地 ID"
 msgid "Plot Key"
 msgstr "耕地金鑰"
 
-#: src/components/pool/PoolOverview.tsx:30
+#: src/components/pool/PoolOverview.tsx:31
 msgid "Plot NFT"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTChangePool.tsx:67
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:91
+#: src/components/plotNFT/PlotNFTChangePool.tsx:71
 msgid "Plot NFT with p2_singleton_puzzle_hash {plotNFTId} does not exists"
 msgstr ""
 
@@ -1391,12 +1398,12 @@ msgstr "以 bitfield 規劃耕地可減少約 30％ 的總寫入量且如今也�
 #~ msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
 #~ msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:126
+#: src/components/plotNFT/PlotNFTCard.tsx:138
 msgid "Points Found Since Start"
 msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:60
-#: src/components/pool/Pool.tsx:24
+#: src/components/pool/Pool.tsx:25
 msgid "Pool"
 msgstr ""
 
@@ -1437,7 +1444,7 @@ msgstr ""
 msgid "Pool does not provide target_puzzle_hash."
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTState.tsx:45
+#: src/components/plotNFT/PlotNFTState.tsx:49
 msgid "Pooling"
 msgstr ""
 
@@ -1448,8 +1455,13 @@ msgstr ""
 msgid "Port"
 msgstr "通訊埠"
 
-#: src/components/plotNFT/PlotNFTChangePool.tsx:60
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:76
+#: src/components/plotNFT/PlotNFTChangePool.tsx:64
 msgid "Preparing Plot NFT"
+msgstr ""
+
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:84
+msgid "Preparing standard wallet"
 msgstr ""
 
 #: src/components/block/Block.jsx:320
@@ -1520,7 +1532,7 @@ msgstr "已隊列"
 msgid "RAM max usage"
 msgstr "最大記憶體使用量"
 
-#: src/components/wallet/Wallets.tsx:65
+#: src/components/wallet/Wallets.tsx:62
 msgid "RL Wallet"
 msgstr "RL 錢包"
 
@@ -1545,8 +1557,8 @@ msgstr "速率限制選項"
 msgid "Rate Limited User Wallet Setup"
 msgstr "速率限制使用者錢包設定"
 
-#: src/components/wallet/coloured/WalletColoured.tsx:663
-#: src/components/wallet/standard/WalletStandard.tsx:557
+#: src/components/wallet/coloured/WalletColoured.tsx:668
+#: src/components/wallet/standard/WalletStandard.tsx:564
 msgid "Receive Address"
 msgstr "接收位址"
 
@@ -1570,7 +1582,7 @@ msgstr "發行說明"
 msgid "Removing"
 msgstr "移除中"
 
-#: src/components/wallet/coloured/WalletColoured.tsx:263
+#: src/components/wallet/coloured/WalletColoured.tsx:268
 msgid "Rename"
 msgstr "更改名稱"
 
@@ -1586,8 +1598,8 @@ msgstr "從備份還原有色代幣和其他智慧錢包的元數據"
 #~ msgid "Restore Smart Wallets From Backup"
 #~ msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:106
-#: src/components/pool/PoolOverview.tsx:58
+#: src/components/plotNFT/PlotNFTCard.tsx:85
+#: src/components/pool/PoolOverview.tsx:59
 msgid "Rewards"
 msgstr ""
 
@@ -1689,7 +1701,7 @@ msgstr ""
 msgid "Sell"
 msgstr "賣出"
 
-#: src/components/wallet/coloured/WalletColoured.tsx:632
+#: src/components/wallet/coloured/WalletColoured.tsx:637
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:798
 #: src/components/wallet/standard/WalletStandard.tsx:526
 msgid "Send"
@@ -1748,9 +1760,9 @@ msgstr "可花用數量"
 msgid "Spendable Amount Per Interval"
 msgstr "每間隔可花用數量"
 
-#: src/components/wallet/coloured/WalletColoured.tsx:387
+#: src/components/wallet/coloured/WalletColoured.tsx:392
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:571
-#: src/components/wallet/standard/WalletStandard.tsx:261
+#: src/components/wallet/standard/WalletStandard.tsx:259
 msgid "Spendable Balance"
 msgstr "可花用餘額"
 
@@ -1777,12 +1789,12 @@ msgstr "狀態"
 #: src/components/fullNode/FullNode.jsx:130
 #: src/components/fullNode/FullNode.jsx:152
 #: src/components/plot/overview/PlotOverviewPlots.tsx:93
-#: src/components/plotNFT/PlotNFTCard.tsx:110
-#: src/components/pool/PoolOverview.tsx:38
+#: src/components/plotNFT/PlotNFTCard.tsx:77
+#: src/components/pool/PoolOverview.tsx:35
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:56
 #: src/components/wallet/WalletStatusCard.tsx:23
-#: src/components/wallet/Wallets.tsx:135
+#: src/components/wallet/Wallets.tsx:124
 msgid "Status"
 msgstr "狀態"
 
@@ -1898,7 +1910,11 @@ msgstr "此節點尚未同步"
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "節點同步中，這代表正從其他節點中下載區塊，直到到達區塊鏈的最新區塊"
 
-#: src/hooks/usePoolInfo.ts:20
+#: src/hooks/usePoolInfo.ts:46
+msgid "The pool URL \"{poolUrl}\" is not working. Is it pool? Error: {0}"
+msgstr ""
+
+#: src/hooks/usePoolInfo.ts:33
 msgid "The pool URL speciefied is not valid. {poolUrl}"
 msgstr ""
 
@@ -1926,21 +1942,25 @@ msgstr "這些耕地是無效的，你可能想要刪除他們。"
 msgid "This allows you to add a directory that has plots in it. If you have not created any plots, go to the plotting screen."
 msgstr "這允許你增加已存有耕地的資料夾。如果你還沒建立任何的耕地，去耕地規劃畫面吧。"
 
+#: src/components/plotNFT/PlotNFTCard.tsx:98
+msgid "This difficulty is an artifically lower difficulty than on the real network, and is used when farming, in order to find more proofs and send them to the pool. The more plots you have, the higher difficulty you will have. However, the difficulty does not affect rewards."
+msgstr ""
+
 #: src/components/trading/CreateOffer.jsx:132
 #: src/hooks/useSelectDirectory.tsx:31
 #: src/hooks/useSelectFile.tsx:21
 msgid "This feature is available only from the GUI."
 msgstr "這個功能只能在 GUI 中提供。"
 
-#: src/components/wallet/standard/WalletStandard.tsx:264
+#: src/components/wallet/standard/WalletStandard.tsx:262
 msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
 msgstr "這是你目前可用來交易的 Chia 數量。他不包括未結的耕種獎勵，未結的匯入交易和你剛花用，但還沒在區塊鏈內的 Chia 。"
 
-#: src/components/wallet/standard/WalletStandard.tsx:313
+#: src/components/wallet/standard/WalletStandard.tsx:311
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
 msgstr "這是待處理的改變，是你發送給自己的但還沒確認的改變。"
 
-#: src/components/wallet/standard/WalletStandard.tsx:302
+#: src/components/wallet/standard/WalletStandard.tsx:300
 msgid "This is the sum of the incoming and outgoing pending transactions (not yet included into the blockchain). This does not include farming rewards."
 msgstr "這是匯入和匯出的未結交易的總和（還沒包含在區塊鏈中）。這不包括耕種獎勵。"
 
@@ -1952,13 +1972,21 @@ msgstr "這是最後的峰值子區塊的時間。"
 msgid "This is the time the block was created by the farmer, which is before it is finalized with a proof of time"
 msgstr "這是塊農建立區塊的時間，這是在用時間證明最終確定之前的時間"
 
-#: src/components/wallet/standard/WalletStandard.tsx:252
+#: src/components/wallet/standard/WalletStandard.tsx:250
 msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr "這是由你的私鑰控制的目前峰值子區塊中區塊鏈中 Chia 的總量。他包括凍結耕種獎勵，但不包括未結的匯入和匯出交易。"
 
-#: src/components/wallet/standard/WalletStandard.tsx:291
+#: src/components/wallet/standard/WalletStandard.tsx:289
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
 msgstr "這是總餘額 + 未結餘額：這是在全部未結交易結清後你的餘額。"
+
+#: src/components/plotNFT/PlotNFTCard.tsx:115
+msgid "This is the total number of points this plotNFT has with this pool, since the last payout. The pool will reset the points after making a payout."
+msgstr ""
+
+#: src/components/plotNFT/PlotNFTCard.tsx:130
+msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:134
 msgid "This node is fully caught up and validating the network"
@@ -2000,9 +2028,9 @@ msgstr "時間戳記"
 msgid "To"
 msgstr "到"
 
-#: src/components/wallet/coloured/WalletColoured.tsx:380
+#: src/components/wallet/coloured/WalletColoured.tsx:385
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:565
-#: src/components/wallet/standard/WalletStandard.tsx:249
+#: src/components/wallet/standard/WalletStandard.tsx:247
 msgid "Total Balance"
 msgstr "總餘額"
 
@@ -2022,7 +2050,7 @@ msgstr "總網路空間"
 msgid "Total Plot Size:"
 msgstr "總耕地大小："
 
-#: src/components/pool/PoolOverview.tsx:164
+#: src/components/pool/PoolOverview.tsx:175
 msgid "Total Self Pooling Rewards"
 msgstr ""
 
@@ -2129,11 +2157,11 @@ msgid "View Offer"
 msgstr "檢視提案"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:586
-#: src/components/wallet/standard/WalletStandard.tsx:282
+#: src/components/wallet/standard/WalletStandard.tsx:280
 msgid "View pending balances"
 msgstr "檢視未結餘額"
 
-#: src/components/wallet/coloured/WalletColoured.tsx:399
+#: src/components/wallet/coloured/WalletColoured.tsx:404
 msgid "View pending balances..."
 msgstr "檢視未結餘額..."
 
@@ -2153,11 +2181,15 @@ msgstr "等待同步中"
 #~ msgstr "Waiting for network to launch"
 
 #: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:70
-msgid "Waiting on transaction to hit the memory pool..."
+msgid "Waiting for the transaction to be confirmed"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:114
-#: src/components/pool/PoolOverview.tsx:34
+#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:70
+#~ msgid "Waiting on transaction to hit the memory pool..."
+#~ msgstr ""
+
+#: src/components/plotNFT/PlotNFTCard.tsx:81
+#: src/components/pool/PoolOverview.tsx:39
 msgid "Wallet Status"
 msgstr ""
 
@@ -2190,7 +2222,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:45
-#: src/components/wallet/Wallets.tsx:178
+#: src/components/wallet/Wallets.tsx:167
 msgid "Wallets"
 msgstr "錢包"
 
@@ -2253,7 +2285,7 @@ msgstr ""
 msgid "You are not self pooling"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:227
+#: src/components/plotNFT/PlotNFTCard.tsx:239
 msgid "You can still create plots for this plot NFT, but you can not make changes until sync is complete."
 msgstr ""
 
@@ -2285,7 +2317,6 @@ msgstr "你擁有 {0} ％的網路空間，耕種一個區塊預計要 {expected
 #~ msgid "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 #~ msgstr "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:86
 #: src/components/pool/PoolJoin.tsx:35
 msgid "You need to claim your rewards first"
 msgstr ""
@@ -2293,6 +2324,10 @@ msgstr ""
 #: src/components/app/AppTimeBomb.tsx:28
 #~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
 #~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+
+#: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:128
+msgid "You will recieve <0/> to {0}"
+msgstr ""
 
 #: src/hooks/useAbsorbRewards.tsx:48
 msgid "You will recieve <0/> to {address}"
@@ -2310,7 +2345,7 @@ msgstr "你的完整節點連線"
 msgid "Your Harvester Network"
 msgstr "你的收割機網路"
 
-#: src/components/pool/PoolOverview.tsx:143
+#: src/components/pool/PoolOverview.tsx:154
 msgid "Your Pool Overview"
 msgstr ""
 
@@ -2323,16 +2358,16 @@ msgid "[Error 22] File not found. Most likely one of the plot folders in your co
 msgstr "［錯誤 22］找不到檔案。很有可能你 config.yaml 裡其中一個耕地資料夾有問題。"
 
 #: src/components/wallet/WalletStatusCard.tsx:46
-#: src/components/wallet/Wallets.tsx:158
+#: src/components/wallet/Wallets.tsx:147
 msgid "connections:"
 msgstr "連線："
 
 #: src/components/wallet/WalletStatusCard.tsx:40
-#: src/components/wallet/Wallets.tsx:152
+#: src/components/wallet/Wallets.tsx:141
 msgid "height:"
 msgstr "高度："
 
-#: src/components/wallet/Wallets.tsx:146
+#: src/components/wallet/Wallets.tsx:135
 msgid "not synced"
 msgstr "未同步"
 
@@ -2341,17 +2376,17 @@ msgid "p2_singleton_puzzle_hash is not defined"
 msgstr ""
 
 #: src/components/wallet/WalletStatusCard.tsx:28
-#: src/components/wallet/Wallets.tsx:140
+#: src/components/wallet/Wallets.tsx:129
 msgid "status:"
 msgstr "狀態："
 
 #: src/components/wallet/WalletStatusCard.tsx:34
-#: src/components/wallet/Wallets.tsx:145
+#: src/components/wallet/Wallets.tsx:134
 msgid "synced"
 msgstr "已同步"
 
 #: src/components/wallet/WalletStatusCard.tsx:32
-#: src/components/wallet/Wallets.tsx:144
+#: src/components/wallet/Wallets.tsx:133
 msgid "syncing"
 msgstr "同步中"
 
@@ -2374,3 +2409,7 @@ msgstr "{currencyCode} 已收耕 Chia"
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} 使用者交易費用"
+
+#: src/components/core/components/Fee/Fee.tsx:44
+msgid "{mojo, plural, one {mojo} other {mojos}}"
+msgstr ""
