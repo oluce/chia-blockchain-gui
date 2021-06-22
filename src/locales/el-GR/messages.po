@@ -86,9 +86,9 @@ msgstr "Προσθήκη Πορτοφολιού"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:47
 #: src/components/plot/PlotHeader.tsx:54
-#: src/components/plot/add/PlotAdd.tsx:152
+#: src/components/plot/add/PlotAdd.tsx:158
 #: src/components/plot/overview/PlotOverviewHero.tsx:40
-#: src/components/plotNFT/PlotNFTCard.tsx:161
+#: src/components/plotNFT/PlotNFTCard.tsx:174
 msgid "Add a Plot"
 msgstr "Προσθήκη plot"
 
@@ -287,7 +287,7 @@ msgstr "Πρόκληση Hash"
 msgid "Change"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:223
+#: src/components/plotNFT/PlotNFTCard.tsx:250
 #: src/components/plotNFT/PlotNFTChangePool.tsx:100
 #: src/components/pool/PoolOverview.tsx:94
 msgid "Change Pool"
@@ -317,7 +317,7 @@ msgstr "Επιλέξτε τον αριθμό των Plots"
 msgid "Choose Plot Size"
 msgstr "Επιλέξτε Μέγεθος Plot"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:200
+#: src/components/plotNFT/PlotNFTCard.tsx:227
 #: src/components/pool/PoolOverview.tsx:78
 msgid "Claim Rewards"
 msgstr ""
@@ -438,8 +438,8 @@ msgid "Copy to Clipboard"
 msgstr "Αντιγραφή στο Πρόχειρο"
 
 #: src/components/backup/BackupCreate.tsx:78
-#: src/components/plot/add/PlotAdd.tsx:166
-#: src/components/plotNFT/select/PlotNFTSelectPool.tsx:131
+#: src/components/plot/add/PlotAdd.tsx:172
+#: src/components/plotNFT/select/PlotNFTSelectPool.tsx:133
 #: src/components/wallet/create/createExistingColouredCoin.jsx:141
 #: src/components/wallet/create/createNewColouredCoin.jsx:148
 #: src/components/wallet/create/createRLAdmin.jsx:333
@@ -525,11 +525,15 @@ msgstr "Δημιουργήθηκε στις:"
 msgid "Created by us:"
 msgstr "Δημιουργήθηκε από εμάς:"
 
-#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:59
-msgid "Creating Plot NFT and Joining the Pool {poolUrl}"
+#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:61
+msgid "Creating Plot NFT and Joining the Pool"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:58
+#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:59
+#~ msgid "Creating Plot NFT and Joining the Pool {poolUrl}"
+#~ msgstr ""
+
+#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:60
 msgid "Creating Plot NFT for Self Pooling"
 msgstr ""
 
@@ -537,11 +541,11 @@ msgstr ""
 msgid "Currency code is not defined"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:106
+#: src/components/plotNFT/PlotNFTCard.tsx:119
 msgid "Current Difficulty"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:121
+#: src/components/plotNFT/PlotNFTCard.tsx:134
 msgid "Current Points Balance"
 msgstr ""
 
@@ -935,7 +939,7 @@ msgstr "Δημιουργία Περιορισμένου Ρυθμού του Χρ
 msgid "Interval"
 msgstr "Μεσοδιάστημα"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:222
+#: src/components/plotNFT/PlotNFTCard.tsx:249
 #: src/components/pool/PoolOverview.tsx:93
 msgid "Join Pool"
 msgstr ""
@@ -983,7 +987,7 @@ msgstr "Τελευταίο συκομιζόμενο ύψος"
 msgid "Latest Block Challenges"
 msgstr "Τελευταίες Προκλήσεις Μπλοκ"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:176
+#: src/components/plotNFT/PlotNFTCard.tsx:203
 msgid "Launcher Id"
 msgstr ""
 
@@ -1175,7 +1179,7 @@ msgstr "Χωρίς σύνδεση"
 msgid "Not found Plots"
 msgstr "Δεν βρέθηκαν Οικόπεδα"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:89
+#: src/components/plotNFT/PlotNFTCard.tsx:102
 msgid "Number of Plots"
 msgstr ""
 
@@ -1398,7 +1402,7 @@ msgstr "Το plotting με ενεργοποιημένο το bitfield έχει �
 #~ msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
 #~ msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:138
+#: src/components/plotNFT/PlotNFTCard.tsx:151
 msgid "Points Found Since Start"
 msgstr ""
 
@@ -1432,16 +1436,20 @@ msgstr "Διεύθυνση Ανταμοιβής Ομίλου"
 msgid "Pool Reward Amount"
 msgstr "Ποσό Ανταμοιβής Ομίλου"
 
-#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:63
+#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:65
 msgid "Pool URL: {poolUrl}"
 msgstr ""
 
-#: src/components/plotNFT/select/PlotNFTSelectPool.tsx:27
+#: src/components/plotNFT/select/PlotNFTSelectPool.tsx:29
 msgid "Pool does not provide relative_lock_height."
 msgstr ""
 
-#: src/components/plotNFT/select/PlotNFTSelectPool.tsx:24
+#: src/components/plotNFT/select/PlotNFTSelectPool.tsx:26
 msgid "Pool does not provide target_puzzle_hash."
+msgstr ""
+
+#: src/components/plotNFT/PlotNFTCard.tsx:186
+msgid "Pool:"
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTState.tsx:49
@@ -1598,7 +1606,7 @@ msgstr "Επαναφορά μεταδεδομένων για έγχρωμα νο
 #~ msgid "Restore Smart Wallets From Backup"
 #~ msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:85
+#: src/components/plotNFT/PlotNFTCard.tsx:98
 #: src/components/pool/PoolOverview.tsx:59
 msgid "Rewards"
 msgstr ""
@@ -1789,7 +1797,7 @@ msgstr "Κατάσταση"
 #: src/components/fullNode/FullNode.jsx:130
 #: src/components/fullNode/FullNode.jsx:152
 #: src/components/plot/overview/PlotOverviewPlots.tsx:93
-#: src/components/plotNFT/PlotNFTCard.tsx:77
+#: src/components/plotNFT/PlotNFTCard.tsx:90
 #: src/components/pool/PoolOverview.tsx:35
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:56
@@ -1910,11 +1918,15 @@ msgstr "Ο κόμβος δεν είναι συγχρονισμένος"
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "Ο κόμβος συγχρονίζεται, πράγμα που σημαίνει ότι γίνεται λήψη μπλοκ από άλλους κόμβους, για να φτάσει το τελευταίο μπλοκ στην αλυσίδα"
 
-#: src/hooks/usePoolInfo.ts:46
-msgid "The pool URL \"{poolUrl}\" is not working. Is it pool? Error: {0}"
+#: src/hooks/usePoolInfo.ts:36
+msgid "The pool URL \"{normalizedUrl}\" is not working. Is it pool? Error: {0}"
 msgstr ""
 
-#: src/hooks/usePoolInfo.ts:33
+#: src/hooks/usePoolInfo.ts:46
+#~ msgid "The pool URL \"{poolUrl}\" is not working. Is it pool? Error: {0}"
+#~ msgstr ""
+
+#: src/hooks/usePoolInfo.ts:23
 msgid "The pool URL speciefied is not valid. {poolUrl}"
 msgstr ""
 
@@ -1942,7 +1954,7 @@ msgstr "Αυτά τα plot δεν είναι έγκυρα, ίσως θέλετε
 msgid "This allows you to add a directory that has plots in it. If you have not created any plots, go to the plotting screen."
 msgstr "Αυτό σας επιτρέπει να προσθέσετε έναν κατάλογο που περιέχει plot Αν δεν έχετε δημιουργήσει plot, μεταβείτε στην οθόνη σχεδίασης."
 
-#: src/components/plotNFT/PlotNFTCard.tsx:98
+#: src/components/plotNFT/PlotNFTCard.tsx:111
 msgid "This difficulty is an artifically lower difficulty than on the real network, and is used when farming, in order to find more proofs and send them to the pool. The more plots you have, the higher difficulty you will have. However, the difficulty does not affect rewards."
 msgstr ""
 
@@ -1980,11 +1992,11 @@ msgstr "Αυτή είναι η συνολική ποσότητα chia στο blo
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
 msgstr "Αυτό είναι το συνολικό υπόλοιπο + το εκκρεμές υπόλοιπο: αυτό είναι που θα είναι το υπόλοιπό σας μετά από όλες τις εκκρεμείς συναλλαγές που θα επιβεβαιωθούν."
 
-#: src/components/plotNFT/PlotNFTCard.tsx:115
+#: src/components/plotNFT/PlotNFTCard.tsx:128
 msgid "This is the total number of points this plotNFT has with this pool, since the last payout. The pool will reset the points after making a payout."
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:130
+#: src/components/plotNFT/PlotNFTCard.tsx:143
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr ""
 
@@ -2106,7 +2118,7 @@ msgstr "Hash Φίλτρο Συναλλαγών"
 msgid "Type"
 msgstr "Τύπος"
 
-#: src/components/plot/add/PlotAdd.tsx:94
+#: src/components/plot/add/PlotAdd.tsx:100
 msgid "Unable to create plot NFT"
 msgstr ""
 
@@ -2180,7 +2192,7 @@ msgstr "Αναμονή για συγχρονισμό"
 #~ msgid "Waiting for network to launch"
 #~ msgstr "Waiting for network to launch"
 
-#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:70
+#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:72
 msgid "Waiting for the transaction to be confirmed"
 msgstr ""
 
@@ -2188,7 +2200,7 @@ msgstr ""
 #~ msgid "Waiting on transaction to hit the memory pool..."
 #~ msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:81
+#: src/components/plotNFT/PlotNFTCard.tsx:94
 #: src/components/pool/PoolOverview.tsx:39
 msgid "Wallet Status"
 msgstr ""
@@ -2285,7 +2297,7 @@ msgstr ""
 msgid "You are not self pooling"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:239
+#: src/components/plotNFT/PlotNFTCard.tsx:266
 msgid "You can still create plots for this plot NFT, but you can not make changes until sync is complete."
 msgstr ""
 
@@ -2371,7 +2383,7 @@ msgstr "ύψος:"
 msgid "not synced"
 msgstr "δεν συγχρονίστηκε"
 
-#: src/components/plot/add/PlotAdd.tsx:98
+#: src/components/plot/add/PlotAdd.tsx:104
 msgid "p2_singleton_puzzle_hash is not defined"
 msgstr ""
 

@@ -88,9 +88,9 @@ msgstr "افزودن کیف پول"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:47
 #: src/components/plot/PlotHeader.tsx:54
-#: src/components/plot/add/PlotAdd.tsx:152
+#: src/components/plot/add/PlotAdd.tsx:158
 #: src/components/plot/overview/PlotOverviewHero.tsx:40
-#: src/components/plotNFT/PlotNFTCard.tsx:161
+#: src/components/plotNFT/PlotNFTCard.tsx:174
 msgid "Add a Plot"
 msgstr "افزودن پلات"
 
@@ -291,7 +291,7 @@ msgstr "چالشِ در هم سازی(هش)"
 msgid "Change"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:223
+#: src/components/plotNFT/PlotNFTCard.tsx:250
 #: src/components/plotNFT/PlotNFTChangePool.tsx:100
 #: src/components/pool/PoolOverview.tsx:94
 msgid "Change Pool"
@@ -321,7 +321,7 @@ msgstr "تعداد پلات ها را انتخاب کنید"
 msgid "Choose Plot Size"
 msgstr "مقدار فضای پلات را انتخاب کنید"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:200
+#: src/components/plotNFT/PlotNFTCard.tsx:227
 #: src/components/pool/PoolOverview.tsx:78
 msgid "Claim Rewards"
 msgstr ""
@@ -442,8 +442,8 @@ msgid "Copy to Clipboard"
 msgstr "رونوشت در کلیپ بورد"
 
 #: src/components/backup/BackupCreate.tsx:78
-#: src/components/plot/add/PlotAdd.tsx:166
-#: src/components/plotNFT/select/PlotNFTSelectPool.tsx:131
+#: src/components/plot/add/PlotAdd.tsx:172
+#: src/components/plotNFT/select/PlotNFTSelectPool.tsx:133
 #: src/components/wallet/create/createExistingColouredCoin.jsx:141
 #: src/components/wallet/create/createNewColouredCoin.jsx:148
 #: src/components/wallet/create/createRLAdmin.jsx:333
@@ -529,11 +529,15 @@ msgstr "ایجاد شده در:"
 msgid "Created by us:"
 msgstr "ایجاد شده توسط ما:"
 
-#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:59
-msgid "Creating Plot NFT and Joining the Pool {poolUrl}"
+#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:61
+msgid "Creating Plot NFT and Joining the Pool"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:58
+#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:59
+#~ msgid "Creating Plot NFT and Joining the Pool {poolUrl}"
+#~ msgstr ""
+
+#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:60
 msgid "Creating Plot NFT for Self Pooling"
 msgstr ""
 
@@ -541,11 +545,11 @@ msgstr ""
 msgid "Currency code is not defined"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:106
+#: src/components/plotNFT/PlotNFTCard.tsx:119
 msgid "Current Difficulty"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:121
+#: src/components/plotNFT/PlotNFTCard.tsx:134
 msgid "Current Points Balance"
 msgstr ""
 
@@ -941,7 +945,7 @@ msgstr "راه اندازی کیف پول کاربر با نرخ محدود:"
 msgid "Interval"
 msgstr "فاصله"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:222
+#: src/components/plotNFT/PlotNFTCard.tsx:249
 #: src/components/pool/PoolOverview.tsx:93
 msgid "Join Pool"
 msgstr ""
@@ -989,7 +993,7 @@ msgstr "آخرین ارتفاع زراعت شده"
 msgid "Latest Block Challenges"
 msgstr "آخرین چالش های بلوک"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:176
+#: src/components/plotNFT/PlotNFTCard.tsx:203
 msgid "Launcher Id"
 msgstr ""
 
@@ -1181,7 +1185,7 @@ msgstr "متصل نیست"
 msgid "Not found Plots"
 msgstr "پلاتی یافت نشد"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:89
+#: src/components/plotNFT/PlotNFTCard.tsx:102
 msgid "Number of Plots"
 msgstr ""
 
@@ -1406,7 +1410,7 @@ msgstr "پلات سازی با فعال کردن bitfield حدود ۳۰٪ اعم
 #~ msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
 #~ msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:138
+#: src/components/plotNFT/PlotNFTCard.tsx:151
 msgid "Points Found Since Start"
 msgstr ""
 
@@ -1440,16 +1444,20 @@ msgstr "آدرس پاداش استخر"
 msgid "Pool Reward Amount"
 msgstr "مقدار پاداش استخر"
 
-#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:63
+#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:65
 msgid "Pool URL: {poolUrl}"
 msgstr ""
 
-#: src/components/plotNFT/select/PlotNFTSelectPool.tsx:27
+#: src/components/plotNFT/select/PlotNFTSelectPool.tsx:29
 msgid "Pool does not provide relative_lock_height."
 msgstr ""
 
-#: src/components/plotNFT/select/PlotNFTSelectPool.tsx:24
+#: src/components/plotNFT/select/PlotNFTSelectPool.tsx:26
 msgid "Pool does not provide target_puzzle_hash."
+msgstr ""
+
+#: src/components/plotNFT/PlotNFTCard.tsx:186
+msgid "Pool:"
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTState.tsx:49
@@ -1606,7 +1614,7 @@ msgstr "بازگردانی فراداده ها (Metadata) برای سکه های
 #~ msgid "Restore Smart Wallets From Backup"
 #~ msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:85
+#: src/components/plotNFT/PlotNFTCard.tsx:98
 #: src/components/pool/PoolOverview.tsx:59
 msgid "Rewards"
 msgstr ""
@@ -1797,7 +1805,7 @@ msgstr "حالت"
 #: src/components/fullNode/FullNode.jsx:130
 #: src/components/fullNode/FullNode.jsx:152
 #: src/components/plot/overview/PlotOverviewPlots.tsx:93
-#: src/components/plotNFT/PlotNFTCard.tsx:77
+#: src/components/plotNFT/PlotNFTCard.tsx:90
 #: src/components/pool/PoolOverview.tsx:35
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:56
@@ -1918,11 +1926,15 @@ msgstr "گره همگام سازی نشده"
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "گره در حال همگام‌سازی است، به این معنی که بلاک‌ها را از گره‌های دیگر بارگیری می‌کند تا به آخرین بلاک در زنجیره برسد"
 
-#: src/hooks/usePoolInfo.ts:46
-msgid "The pool URL \"{poolUrl}\" is not working. Is it pool? Error: {0}"
+#: src/hooks/usePoolInfo.ts:36
+msgid "The pool URL \"{normalizedUrl}\" is not working. Is it pool? Error: {0}"
 msgstr ""
 
-#: src/hooks/usePoolInfo.ts:33
+#: src/hooks/usePoolInfo.ts:46
+#~ msgid "The pool URL \"{poolUrl}\" is not working. Is it pool? Error: {0}"
+#~ msgstr ""
+
+#: src/hooks/usePoolInfo.ts:23
 msgid "The pool URL speciefied is not valid. {poolUrl}"
 msgstr ""
 
@@ -1950,7 +1962,7 @@ msgstr "این پلات‌ها نامعتبر هستند، ممکن است بخ�
 msgid "This allows you to add a directory that has plots in it. If you have not created any plots, go to the plotting screen."
 msgstr "به شما این امکان را می‌دهد تا پوشه‌ای را که در آن پلات‌ها قرار دارند اضافه کنید. اگر هیچ پلاتی را ایجاد نکرده‌اید، به صفحه پلات‌ها بروید."
 
-#: src/components/plotNFT/PlotNFTCard.tsx:98
+#: src/components/plotNFT/PlotNFTCard.tsx:111
 msgid "This difficulty is an artifically lower difficulty than on the real network, and is used when farming, in order to find more proofs and send them to the pool. The more plots you have, the higher difficulty you will have. However, the difficulty does not affect rewards."
 msgstr ""
 
@@ -1990,11 +2002,11 @@ msgstr "این مقدار کل چیـا در زنجیره بلوکی در نقط
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
 msgstr "این مقدار موجودی کل + موجودی در حال انتظار است: یعنی موجودی شما در زمانی که تمام تراکنش های در انتظار انجام به تایید برسند."
 
-#: src/components/plotNFT/PlotNFTCard.tsx:115
+#: src/components/plotNFT/PlotNFTCard.tsx:128
 msgid "This is the total number of points this plotNFT has with this pool, since the last payout. The pool will reset the points after making a payout."
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:130
+#: src/components/plotNFT/PlotNFTCard.tsx:143
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr ""
 
@@ -2118,7 +2130,7 @@ msgstr "هشِ فیلتر تراکنش ها"
 msgid "Type"
 msgstr "نوع"
 
-#: src/components/plot/add/PlotAdd.tsx:94
+#: src/components/plot/add/PlotAdd.tsx:100
 msgid "Unable to create plot NFT"
 msgstr ""
 
@@ -2192,7 +2204,7 @@ msgstr "در انتظار همگام سازی"
 #~ msgid "Waiting for network to launch"
 #~ msgstr "Waiting for network to launch"
 
-#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:70
+#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:72
 msgid "Waiting for the transaction to be confirmed"
 msgstr ""
 
@@ -2200,7 +2212,7 @@ msgstr ""
 #~ msgid "Waiting on transaction to hit the memory pool..."
 #~ msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:81
+#: src/components/plotNFT/PlotNFTCard.tsx:94
 #: src/components/pool/PoolOverview.tsx:39
 msgid "Wallet Status"
 msgstr ""
@@ -2299,7 +2311,7 @@ msgstr ""
 msgid "You are not self pooling"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:239
+#: src/components/plotNFT/PlotNFTCard.tsx:266
 msgid "You can still create plots for this plot NFT, but you can not make changes until sync is complete."
 msgstr ""
 
@@ -2387,7 +2399,7 @@ msgstr "ارتفاع:"
 msgid "not synced"
 msgstr "همگام‌سازی نشده"
 
-#: src/components/plot/add/PlotAdd.tsx:98
+#: src/components/plot/add/PlotAdd.tsx:104
 msgid "p2_singleton_puzzle_hash is not defined"
 msgstr ""
 
