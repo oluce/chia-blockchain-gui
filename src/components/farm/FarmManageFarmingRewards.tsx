@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 import { Alert } from '@material-ui/lab';
 import styled from 'styled-components';
 import { Flex, Form, TextField, Loading } from '@chia/core';
-import { Button, Dialog, DialogActions, DialogTitle, DialogContent } from '@material-ui/core';
+import { Button, Dialog, DialogActions, DialogTitle, DialogContent, Typography } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 import { getRewardTargets, setRewardTargets } from '../../modules/farmerMessages';
 
@@ -123,6 +123,13 @@ export default function FarmManageFarmingRewards(props: Props) {
                   name="pool_target"
                   variant="filled"
                 />
+
+                <Typography variant="body2" color="textSecondary">
+                  <Trans>
+                    Note that this does not change your pooling payout addresses.
+                    This only affects old format plots, and the 0.25XCH reward for pooling plots.
+                  </Trans>
+                </Typography>
               </>
             )}
           </Flex>
