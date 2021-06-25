@@ -133,6 +133,11 @@ export default function daemonReducer(
       } else if (command === 'unlock_keyring') {
         if (data.success) {
           console.log("Keyring was successfully unlocked");
+
+          return {
+            ...state,
+            password_status: false,
+          };
         }
         else {
           if (data.error === 'bad password') {
