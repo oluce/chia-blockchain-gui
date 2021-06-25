@@ -292,7 +292,7 @@ msgstr "Kies plot grootte"
 msgid "Close"
 msgstr "Sluit"
 
-#: src/components/app/AppRouter.tsx:18
+#: src/components/app/AppRouter.tsx:20
 msgid "Closing down node and server"
 msgstr "Node en server worden afgesloten"
 
@@ -355,7 +355,7 @@ msgstr "Verbind met andere peers"
 msgid "Connected"
 msgstr "Verbonden"
 
-#: src/components/app/AppRouter.tsx:23
+#: src/components/app/AppRouter.tsx:30
 msgid "Connecting to wallet"
 msgstr "Aan het verbinden met de wallet"
 
@@ -885,7 +885,7 @@ msgstr "Aan het laden..."
 msgid "Local Harvester Plots"
 msgstr "Locale harvester plot bestanden"
 
-#: src/components/app/AppRouter.tsx:28
+#: src/components/app/AppRouter.tsx:35
 msgid "Logging in"
 msgstr "Aan het aanmelden"
 

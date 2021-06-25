@@ -292,7 +292,7 @@ msgstr "Choisir la taille de la parcelle"
 msgid "Close"
 msgstr "Fermer"
 
-#: src/components/app/AppRouter.tsx:18
+#: src/components/app/AppRouter.tsx:20
 msgid "Closing down node and server"
 msgstr "Arrêt du nœud et du serveur"
 
@@ -355,7 +355,7 @@ msgstr "Se connecter à d'autres pairs"
 msgid "Connected"
 msgstr "Connecté"
 
-#: src/components/app/AppRouter.tsx:23
+#: src/components/app/AppRouter.tsx:30
 msgid "Connecting to wallet"
 msgstr "En cours de connexion au portefeuille"
 
@@ -885,7 +885,7 @@ msgstr "Chargement..."
 msgid "Local Harvester Plots"
 msgstr "Parcelles locales du moissonneur"
 
-#: src/components/app/AppRouter.tsx:28
+#: src/components/app/AppRouter.tsx:35
 msgid "Logging in"
 msgstr "Identification"
 

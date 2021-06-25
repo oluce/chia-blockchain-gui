@@ -292,7 +292,7 @@ msgstr "Wybierz rozmiar działki"
 msgid "Close"
 msgstr "Zamknij"
 
-#: src/components/app/AppRouter.tsx:18
+#: src/components/app/AppRouter.tsx:20
 msgid "Closing down node and server"
 msgstr "Zamykanie węzła i serwera"
 
@@ -355,7 +355,7 @@ msgstr "Połącz się z innymi peerami"
 msgid "Connected"
 msgstr "Połączono"
 
-#: src/components/app/AppRouter.tsx:23
+#: src/components/app/AppRouter.tsx:30
 msgid "Connecting to wallet"
 msgstr "Łączenie z portfelem"
 
@@ -885,7 +885,7 @@ msgstr "Wczytywanie..."
 msgid "Local Harvester Plots"
 msgstr "Twoje działki"
 
-#: src/components/app/AppRouter.tsx:28
+#: src/components/app/AppRouter.tsx:35
 msgid "Logging in"
 msgstr "Logowanie"
 

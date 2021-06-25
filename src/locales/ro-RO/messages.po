@@ -292,7 +292,7 @@ msgstr "Alege Dimensiunea Parcelei"
 msgid "Close"
 msgstr "Închide"
 
-#: src/components/app/AppRouter.tsx:18
+#: src/components/app/AppRouter.tsx:20
 msgid "Closing down node and server"
 msgstr "Oprește nodul și serverul"
 
@@ -355,7 +355,7 @@ msgstr "Conectare la alți parteneri"
 msgid "Connected"
 msgstr "Conectat"
 
-#: src/components/app/AppRouter.tsx:23
+#: src/components/app/AppRouter.tsx:30
 msgid "Connecting to wallet"
 msgstr "Se conectează la portofel"
 
@@ -885,7 +885,7 @@ msgstr "Încărcare..."
 msgid "Local Harvester Plots"
 msgstr "Parcele locale ale 'cultivatorului'"
 
-#: src/components/app/AppRouter.tsx:28
+#: src/components/app/AppRouter.tsx:35
 msgid "Logging in"
 msgstr "Logare"
 

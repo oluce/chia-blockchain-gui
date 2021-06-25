@@ -292,7 +292,7 @@ msgstr "耕地容量を選択"
 msgid "Close"
 msgstr "閉じる"
 
-#: src/components/app/AppRouter.tsx:18
+#: src/components/app/AppRouter.tsx:20
 msgid "Closing down node and server"
 msgstr "ノードとサーバーを停止中"
 
@@ -355,7 +355,7 @@ msgstr "手動で接続"
 msgid "Connected"
 msgstr "接続済み"
 
-#: src/components/app/AppRouter.tsx:23
+#: src/components/app/AppRouter.tsx:30
 msgid "Connecting to wallet"
 msgstr "ウォレットに接続中"
 
@@ -885,7 +885,7 @@ msgstr "読み込み中…"
 msgid "Local Harvester Plots"
 msgstr "ローカル収穫機上の耕地"
 
-#: src/components/app/AppRouter.tsx:28
+#: src/components/app/AppRouter.tsx:35
 msgid "Logging in"
 msgstr "ログイン中"
 

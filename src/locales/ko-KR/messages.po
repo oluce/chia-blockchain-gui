@@ -292,7 +292,7 @@ msgstr "플롯 사이즈를 선택해 주십시오."
 msgid "Close"
 msgstr "닫기"
 
-#: src/components/app/AppRouter.tsx:18
+#: src/components/app/AppRouter.tsx:20
 msgid "Closing down node and server"
 msgstr "노드와 서버의 연결을 닫는 중..."
 
@@ -355,7 +355,7 @@ msgstr "다른 피어에 연결"
 msgid "Connected"
 msgstr "연결됨"
 
-#: src/components/app/AppRouter.tsx:23
+#: src/components/app/AppRouter.tsx:30
 msgid "Connecting to wallet"
 msgstr "지갑 연결"
 
@@ -885,7 +885,7 @@ msgstr "불러오는 중…"
 msgid "Local Harvester Plots"
 msgstr "지역 수확기 플롯"
 
-#: src/components/app/AppRouter.tsx:28
+#: src/components/app/AppRouter.tsx:35
 msgid "Logging in"
 msgstr "로그인 중"
 

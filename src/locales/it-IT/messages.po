@@ -292,7 +292,7 @@ msgstr "Scegli la Dimensione del Plot"
 msgid "Close"
 msgstr "Chiudi"
 
-#: src/components/app/AppRouter.tsx:18
+#: src/components/app/AppRouter.tsx:20
 msgid "Closing down node and server"
 msgstr "Arresto del nodo e del server in corso"
 
@@ -355,7 +355,7 @@ msgstr "Connettiti ad altri peer"
 msgid "Connected"
 msgstr "Connesso"
 
-#: src/components/app/AppRouter.tsx:23
+#: src/components/app/AppRouter.tsx:30
 msgid "Connecting to wallet"
 msgstr "Connettendo al portafoglio"
 
@@ -885,7 +885,7 @@ msgstr "Caricamento in corso..."
 msgid "Local Harvester Plots"
 msgstr "Plot Harvester Locale"
 
-#: src/components/app/AppRouter.tsx:28
+#: src/components/app/AppRouter.tsx:35
 msgid "Logging in"
 msgstr "Accesso in corso"
 

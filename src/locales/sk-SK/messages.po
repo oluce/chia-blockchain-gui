@@ -292,7 +292,7 @@ msgstr "Vyberte veľkosť poľa"
 msgid "Close"
 msgstr "Zavrieť"
 
-#: src/components/app/AppRouter.tsx:18
+#: src/components/app/AppRouter.tsx:20
 msgid "Closing down node and server"
 msgstr "Zatvára sa uzol a server"
 
@@ -355,7 +355,7 @@ msgstr "Pripojiť k iným uzlom"
 msgid "Connected"
 msgstr "Pripojené"
 
-#: src/components/app/AppRouter.tsx:23
+#: src/components/app/AppRouter.tsx:30
 msgid "Connecting to wallet"
 msgstr "Pripájanie k peňaženke"
 
@@ -885,7 +885,7 @@ msgstr "Načítava sa..."
 msgid "Local Harvester Plots"
 msgstr "Zoznam lokálnych polí"
 
-#: src/components/app/AppRouter.tsx:28
+#: src/components/app/AppRouter.tsx:35
 msgid "Logging in"
 msgstr "Prihlasovanie"
 

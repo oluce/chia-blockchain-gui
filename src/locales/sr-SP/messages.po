@@ -292,7 +292,7 @@ msgstr "Изабери величину плота"
 msgid "Close"
 msgstr "Затвори"
 
-#: src/components/app/AppRouter.tsx:18
+#: src/components/app/AppRouter.tsx:20
 msgid "Closing down node and server"
 msgstr "Затварање чвора и сервера"
 
@@ -355,7 +355,7 @@ msgstr "Повежи се са другим пировима"
 msgid "Connected"
 msgstr "Повезано"
 
-#: src/components/app/AppRouter.tsx:23
+#: src/components/app/AppRouter.tsx:30
 msgid "Connecting to wallet"
 msgstr "Повезивање са новчаником"
 
@@ -885,7 +885,7 @@ msgstr "Учитавање..."
 msgid "Local Harvester Plots"
 msgstr "Локални сакупљач плотова"
 
-#: src/components/app/AppRouter.tsx:28
+#: src/components/app/AppRouter.tsx:35
 msgid "Logging in"
 msgstr "Пријављивање"
 

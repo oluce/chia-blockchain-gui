@@ -296,7 +296,7 @@ msgstr "مقدار فضای پلات را انتخاب کنید"
 msgid "Close"
 msgstr "بستن"
 
-#: src/components/app/AppRouter.tsx:18
+#: src/components/app/AppRouter.tsx:20
 msgid "Closing down node and server"
 msgstr "بستن گره و سرور"
 
@@ -359,7 +359,7 @@ msgstr "اتصال به سایر همسان‌ ها"
 msgid "Connected"
 msgstr "متصل شد"
 
-#: src/components/app/AppRouter.tsx:23
+#: src/components/app/AppRouter.tsx:30
 msgid "Connecting to wallet"
 msgstr "اتصال به کیف پول"
 
@@ -891,7 +891,7 @@ msgstr "درحال بارگذاری..."
 msgid "Local Harvester Plots"
 msgstr "برداشت کننده پلات های محلی"
 
-#: src/components/app/AppRouter.tsx:28
+#: src/components/app/AppRouter.tsx:35
 msgid "Logging in"
 msgstr "ورود"
 

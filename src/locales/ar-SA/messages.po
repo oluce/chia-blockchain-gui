@@ -292,7 +292,7 @@ msgstr "إختر حجم القطعة"
 msgid "Close"
 msgstr "إغلاق"
 
-#: src/components/app/AppRouter.tsx:18
+#: src/components/app/AppRouter.tsx:20
 msgid "Closing down node and server"
 msgstr "إغلاق نقطة إتصال الشبكة والخادم"
 
@@ -355,7 +355,7 @@ msgstr "الاتصال بنقاط شبكة اخري"
 msgid "Connected"
 msgstr "متصل"
 
-#: src/components/app/AppRouter.tsx:23
+#: src/components/app/AppRouter.tsx:30
 msgid "Connecting to wallet"
 msgstr "الاتصال بالمحفظة"
 
@@ -885,7 +885,7 @@ msgstr "تحميل..."
 msgid "Local Harvester Plots"
 msgstr "حقول الحصاد المحلية"
 
-#: src/components/app/AppRouter.tsx:28
+#: src/components/app/AppRouter.tsx:35
 msgid "Logging in"
 msgstr "تسجيل الدخول"
 

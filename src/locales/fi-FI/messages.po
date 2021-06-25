@@ -292,7 +292,7 @@ msgstr "Anna Tiedoston Koko"
 msgid "Close"
 msgstr "Sulje"
 
-#: src/components/app/AppRouter.tsx:18
+#: src/components/app/AppRouter.tsx:20
 msgid "Closing down node and server"
 msgstr "Suljetaan noodi ja palvelut"
 
@@ -355,7 +355,7 @@ msgstr "Yhdistä muihin verkkonoodeihin"
 msgid "Connected"
 msgstr "Yhdistetty"
 
-#: src/components/app/AppRouter.tsx:23
+#: src/components/app/AppRouter.tsx:30
 msgid "Connecting to wallet"
 msgstr "Yhdistetään lompakkoon"
 
@@ -885,7 +885,7 @@ msgstr "Lataa..."
 msgid "Local Harvester Plots"
 msgstr "Paikallisen Harvesterin Plottitiedostot"
 
-#: src/components/app/AppRouter.tsx:28
+#: src/components/app/AppRouter.tsx:35
 msgid "Logging in"
 msgstr "Kirjaudutaan"
 

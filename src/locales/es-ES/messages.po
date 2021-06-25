@@ -292,7 +292,7 @@ msgstr "Elegir el Tamaño de la Parcela"
 msgid "Close"
 msgstr "Cerrar"
 
-#: src/components/app/AppRouter.tsx:18
+#: src/components/app/AppRouter.tsx:20
 msgid "Closing down node and server"
 msgstr "Cerrando nodo y servidor"
 
@@ -355,7 +355,7 @@ msgstr "Conectar a otros pares"
 msgid "Connected"
 msgstr "Conectado"
 
-#: src/components/app/AppRouter.tsx:23
+#: src/components/app/AppRouter.tsx:30
 msgid "Connecting to wallet"
 msgstr "Conectar a cartera"
 
@@ -885,7 +885,7 @@ msgstr "Cargando..."
 msgid "Local Harvester Plots"
 msgstr "Parcelas de Cosechador Locales"
 
-#: src/components/app/AppRouter.tsx:28
+#: src/components/app/AppRouter.tsx:35
 msgid "Logging in"
 msgstr "Iniciando sesión"
 

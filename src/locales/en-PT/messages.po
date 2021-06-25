@@ -292,7 +292,7 @@ msgstr "Choose Strength o' Crewdog"
 msgid "Close"
 msgstr "Close"
 
-#: src/components/app/AppRouter.tsx:18
+#: src/components/app/AppRouter.tsx:20
 msgid "Closing down node and server"
 msgstr "Capt'n 'n server gettin' mighty drunk right now"
 
@@ -355,7 +355,7 @@ msgstr "Say ahoy to other peers"
 msgid "Connected"
 msgstr "Natter'd wit' me hearties jus' now"
 
-#: src/components/app/AppRouter.tsx:23
+#: src/components/app/AppRouter.tsx:30
 msgid "Connecting to wallet"
 msgstr "Lookin' fer treasure chest"
 
@@ -885,7 +885,7 @@ msgstr "Unrolling Treasure Maps..."
 msgid "Local Harvester Plots"
 msgstr "Current Ship Crew"
 
-#: src/components/app/AppRouter.tsx:28
+#: src/components/app/AppRouter.tsx:35
 msgid "Logging in"
 msgstr "Goin' in"
 

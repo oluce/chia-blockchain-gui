@@ -292,7 +292,7 @@ msgstr "Escolha o tamanho do lote"
 msgid "Close"
 msgstr "Fechar"
 
-#: src/components/app/AppRouter.tsx:18
+#: src/components/app/AppRouter.tsx:20
 msgid "Closing down node and server"
 msgstr "Fechar nó e servidor"
 
@@ -355,7 +355,7 @@ msgstr "Conecte-se a outros pares"
 msgid "Connected"
 msgstr "Conectado"
 
-#: src/components/app/AppRouter.tsx:23
+#: src/components/app/AppRouter.tsx:30
 msgid "Connecting to wallet"
 msgstr "Conectando à carteira"
 
@@ -885,7 +885,7 @@ msgstr "Carregando..."
 msgid "Local Harvester Plots"
 msgstr "Lotes da colheita local"
 
-#: src/components/app/AppRouter.tsx:28
+#: src/components/app/AppRouter.tsx:35
 msgid "Logging in"
 msgstr "Iniciando a sessão"
 
