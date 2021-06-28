@@ -64,7 +64,7 @@ msgstr "Acción"
 #: src/components/farm/FarmFullNodeConnections.tsx:57
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:61
 #: src/components/fullNode/FullNodeConnections.tsx:65
-#: src/components/pool/PoolOverview.tsx:62
+#: src/components/pool/PoolOverview.tsx:58
 msgid "Actions"
 msgstr "Acciones"
 
@@ -76,7 +76,7 @@ msgstr "Añadir"
 msgid "Add Plot Directory"
 msgstr "Añadir Directorio de Parcela"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:69
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:64
 msgid "Add Plot to Queue"
 msgstr "Añadir Parcela a la Cola"
 
@@ -106,21 +106,22 @@ msgstr "Añadir directorio de parcelas"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:574
 #: src/components/wallet/coloured/WalletColoured.tsx:677
-#: src/components/wallet/standard/WalletStandard.tsx:577
+#: src/components/wallet/standard/WalletStandard.tsx:585
 msgid "Address"
 msgstr "Dirección"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:748
-#: src/components/wallet/standard/WalletStandard.tsx:466
+#: src/components/wallet/standard/WalletStandard.tsx:485
 msgid "Address / Puzzle hash"
 msgstr "Dirección / Enigma hash"
 
+#: src/components/core/components/Amount/Amount.tsx:63
 #: src/components/trading/CreateOffer.jsx:213
 #: src/components/trading/TradesTable.tsx:18
 #: src/components/wallet/WalletHistory.tsx:62
 #: src/components/wallet/create/createNewColouredCoin.jsx:125
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:770
-#: src/components/wallet/standard/WalletStandard.tsx:486
+#: src/components/wallet/standard/WalletStandard.tsx:495
 msgid "Amount"
 msgstr "Cantidad"
 
@@ -132,7 +133,7 @@ msgstr "Cantidad ({cc_unit})"
 msgid "Amount For Initial Coin"
 msgstr "Cantidad Para Moneda Inicial"
 
-#: src/components/plot/PlotAction.tsx:35
+#: src/components/plot/PlotAction.tsx:36
 #: src/components/plot/queue/PlotQueueActions.tsx:43
 msgid "Are you sure you want to delete the plot? The plot cannot be recovered."
 msgstr "¿Está seguro de que desea eliminar la parcela? La parcela no se puede recuperar."
@@ -169,7 +170,7 @@ msgstr "El archivo de respaldo se usa para restaurar carteras inteligentes."
 
 #: src/components/wallet/coloured/WalletColoured.tsx:381
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:562
-#: src/components/wallet/standard/WalletStandard.tsx:245
+#: src/components/wallet/standard/WalletStandard.tsx:252
 msgid "Balance"
 msgstr "Balance"
 
@@ -258,7 +259,7 @@ msgid "Can be backed up to mnemonic seed"
 msgstr "Puede respaldarse en una semilla mnemotécnica"
 
 #: src/components/core/components/ConfirmDialog/ConfirmDialog.tsx:66
-#: src/components/farm/FarmManageFarmingRewards.tsx:132
+#: src/components/farm/FarmManageFarmingRewards.tsx:139
 #: src/components/fullNode/FullNodeAddConnection.tsx:98
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:70
 #: src/components/trading/CreateOffer.jsx:153
@@ -287,9 +288,9 @@ msgstr "Desafío Hash"
 msgid "Change"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:265
+#: src/components/plotNFT/PlotNFTCard.tsx:273
 #: src/components/plotNFT/PlotNFTChangePool.tsx:100
-#: src/components/pool/PoolOverview.tsx:94
+#: src/components/pool/PoolOverview.tsx:90
 msgid "Change Pool"
 msgstr ""
 
@@ -306,6 +307,7 @@ msgid "Chia Blockchain Wiki"
 msgstr "Chia Blockchain Wiki"
 
 #: src/components/wallet/Wallets.tsx:57
+#: src/components/wallet/standard/WalletStandard.tsx:621
 msgid "Chia Wallet"
 msgstr "Cartera Chia"
 
@@ -317,8 +319,8 @@ msgstr "Elegir la cantidad de Parcelas"
 msgid "Choose Plot Size"
 msgstr "Elegir el Tamaño de la Parcela"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:242
-#: src/components/pool/PoolOverview.tsx:78
+#: src/components/plotNFT/PlotNFTCard.tsx:250
+#: src/components/pool/PoolOverview.tsx:74
 msgid "Claim Rewards"
 msgstr ""
 
@@ -383,7 +385,7 @@ msgid "Connect"
 msgstr "Conectar"
 
 #: src/components/fullNode/FullNodeAddConnection.tsx:71
-#: src/components/fullNode/FullNodeConnections.tsx:96
+#: src/components/fullNode/FullNodeConnections.tsx:95
 msgid "Connect to other peers"
 msgstr "Conectar a otros pares"
 
@@ -429,7 +431,6 @@ msgstr "Copiado"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:314
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:442
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:505
-#: src/components/wallet/standard/WalletStandard.tsx:590
 msgid "Copy"
 msgstr "Copiar"
 
@@ -477,7 +478,7 @@ msgstr "Crear Oferta"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:555
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:729
-#: src/components/wallet/standard/WalletStandard.tsx:442
+#: src/components/wallet/standard/WalletStandard.tsx:461
 msgid "Create Transaction"
 msgstr "Crear Transacción"
 
@@ -489,7 +490,7 @@ msgstr "Crear un Respaldo"
 msgid "Create a Plot NFT"
 msgstr ""
 
-#: src/components/selectKey/SelectKey.tsx:182
+#: src/components/selectKey/SelectKey.tsx:181
 msgid "Create a new private key"
 msgstr "Crear una nueva llave privada"
 
@@ -525,7 +526,7 @@ msgstr "Creado en:"
 msgid "Created by us:"
 msgstr "Creado por nosotros:"
 
-#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:61
+#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:59
 msgid "Creating Plot NFT and Joining the Pool"
 msgstr ""
 
@@ -533,7 +534,7 @@ msgstr ""
 #~ msgid "Creating Plot NFT and Joining the Pool {poolUrl}"
 #~ msgstr ""
 
-#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:60
+#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:58
 msgid "Creating Plot NFT for Self Pooling"
 msgstr ""
 
@@ -576,7 +577,7 @@ msgid "Delay"
 msgstr "Retraso"
 
 #: src/components/plot/PlotAction.tsx:33
-#: src/components/plot/PlotAction.tsx:57
+#: src/components/plot/PlotAction.tsx:58
 #: src/components/plot/queue/PlotQueueActions.tsx:40
 #: src/components/plot/queue/PlotQueueActions.tsx:85
 #: src/components/selectKey/SelectKey.tsx:61
@@ -589,8 +590,13 @@ msgstr "Eliminar"
 msgid "Delete Plot"
 msgstr "Borrar Parcela"
 
+#: src/components/plotNFT/PlotNFTCard.tsx:192
+#: src/components/wallet/standard/WalletStandard.tsx:632
+msgid "Delete Unconfirmed Transactions"
+msgstr ""
+
 #: src/components/selectKey/SelectKey.tsx:81
-#: src/components/selectKey/SelectKey.tsx:202
+#: src/components/selectKey/SelectKey.tsx:197
 msgid "Delete all keys"
 msgstr "Borrar todas las llaves"
 
@@ -679,7 +685,7 @@ msgstr "Introduzca las 24 palabras mnemotécnicas que has guardado en orden para
 msgid "Error"
 msgstr "Error"
 
-#: src/components/wallet/standard/WalletStandard.tsx:415
+#: src/components/wallet/standard/WalletStandard.tsx:434
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
 msgstr "Error: No se puede enviar chia a la dirección de color. Por favor introduzca una dirección chia."
 
@@ -711,7 +717,7 @@ msgstr "Error al abrir (parcelas inválidas)"
 
 #: src/components/dashboard/DashboardSideBar.tsx:55
 #: src/components/wallet/coloured/WalletColoured.tsx:627
-#: src/components/wallet/standard/WalletStandard.tsx:515
+#: src/components/wallet/standard/WalletStandard.tsx:517
 msgid "Farm"
 msgstr "Granja"
 
@@ -756,9 +762,9 @@ msgstr "Cultivando"
 msgid "Farming Status"
 msgstr "Estado de Cultivo"
 
-#: src/components/core/components/Fee/Fee.tsx:77
+#: src/components/core/components/Fee/Fee.tsx:48
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:139
-#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:128
+#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:126
 #: src/components/pool/PoolInfo.tsx:30
 #: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:131
@@ -766,7 +772,7 @@ msgstr "Estado de Cultivo"
 #: src/components/wallet/create/createRLAdmin.jsx:266
 #: src/components/wallet/create/createRLAdmin.jsx:298
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:783
-#: src/components/wallet/standard/WalletStandard.tsx:500
+#: src/components/wallet/standard/WalletStandard.tsx:506
 msgid "Fee"
 msgstr "Tarifa"
 
@@ -835,11 +841,11 @@ msgstr "Pantalla Completa"
 msgid "Generate New Colour"
 msgstr "Generar Nuevo Color"
 
-#: src/components/pool/PoolOverview.tsx:168
+#: src/components/pool/PoolOverview.tsx:149
 msgid "Grid view"
 msgstr ""
 
-#: src/components/wallet/standard/WalletStandard.tsx:566
+#: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "HD o llaves Jerárquicamente Determinísticas son un tipo de esquema de llave pública/llave privada donde una llave privada pueden tener una cantidad prácticamente infinita de llaves públicas (por ende direcciones de recepción de cartera) que en última instancia hacen referencia y pueden ser gastadas por una sola llave privada."
 
@@ -898,7 +904,7 @@ msgstr "Si no se seleccionó ninguno, entonces se establecerá por defecto en el
 msgid "Import Wallet from Mnemonics"
 msgstr "Importar cartera desde Mnemotécnica"
 
-#: src/components/selectKey/SelectKey.tsx:189
+#: src/components/selectKey/SelectKey.tsx:186
 msgid "Import from Mnemonics (24 words)"
 msgstr "Importar de Mnemotécnia (24 palabras)"
 
@@ -910,7 +916,7 @@ msgstr "En curso"
 msgid "Incoming"
 msgstr "Entrante"
 
-#: src/components/core/components/Fee/Fee.tsx:66
+#: src/components/core/components/Fee/Fee.tsx:36
 msgid "Incorrect value"
 msgstr ""
 
@@ -943,12 +949,12 @@ msgstr "Crear cartera de Usuario con Tarifa Limitada:"
 msgid "Interval"
 msgstr "Intervalo"
 
-#: src/components/plotNFT/PlotNFTState.tsx:27
+#: src/components/plotNFT/PlotNFTState.tsx:28
 msgid "Invalid state"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:264
-#: src/components/pool/PoolOverview.tsx:93
+#: src/components/plotNFT/PlotNFTCard.tsx:272
+#: src/components/pool/PoolOverview.tsx:89
 msgid "Join Pool"
 msgstr ""
 
@@ -995,15 +1001,15 @@ msgstr "Última Altura Cultivada"
 msgid "Latest Block Challenges"
 msgstr "Últimos Desafíos de Bloque"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:219
+#: src/components/plotNFT/PlotNFTCard.tsx:227
 msgid "Launcher Id"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTState.tsx:52
+#: src/components/plotNFT/PlotNFTState.tsx:57
 msgid "Leaving Pool"
 msgstr ""
 
-#: src/components/pool/PoolOverview.tsx:168
+#: src/components/pool/PoolOverview.tsx:149
 msgid "List view"
 msgstr ""
 
@@ -1104,7 +1110,7 @@ msgstr "Nombre de Red"
 #~ msgstr "Network not launched yet, waiting for genesis challenge!"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:706
-#: src/components/wallet/standard/WalletStandard.tsx:605
+#: src/components/wallet/standard/WalletStandard.tsx:572
 msgid "New Address"
 msgstr "Nueva dirección"
 
@@ -1165,7 +1171,7 @@ msgid "Not Available"
 msgstr "No Disponible"
 
 #: src/components/fullNode/FullNode.jsx:123
-#: src/components/wallet/WalletStatus.tsx:34
+#: src/components/wallet/WalletStatus.tsx:31
 msgid "Not Synced"
 msgstr "No sincronizado"
 
@@ -1186,6 +1192,10 @@ msgstr "Sin conexión"
 #: src/components/plot/PlotsNotFound.tsx:35
 msgid "Not found Plots"
 msgstr "No se encontraron parcelas"
+
+#: src/components/farm/FarmManageFarmingRewards.tsx:128
+msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
+msgstr ""
 
 #: src/components/plotNFT/PlotNFTCard.tsx:104
 msgid "Number of Plots"
@@ -1211,7 +1221,7 @@ msgstr "Oferta"
 msgid "Offers Created"
 msgstr "Oferta Creada"
 
-#: src/components/wallet/standard/WalletStandard.tsx:444
+#: src/components/wallet/standard/WalletStandard.tsx:463
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr "En promedio hay un minuto de procesamiento entre cada transaccion de bloques, durante alta congestacion en la red la transaccion puede tomar mas de un minuto."
 
@@ -1231,23 +1241,23 @@ msgstr "Altura de cima"
 msgid "Peak Time"
 msgstr "Tiempo de cima"
 
-#: src/components/plotNFT/PlotNFTState.tsx:37
+#: src/components/plotNFT/PlotNFTState.tsx:42
 #: src/components/wallet/WalletHistory.tsx:55
 msgid "Pending"
 msgstr "Pendiente"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:604
-#: src/components/wallet/standard/WalletStandard.tsx:297
+#: src/components/wallet/standard/WalletStandard.tsx:304
 msgid "Pending Balance"
 msgstr "Balance Pendiente"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:613
-#: src/components/wallet/standard/WalletStandard.tsx:308
+#: src/components/wallet/standard/WalletStandard.tsx:315
 msgid "Pending Change"
 msgstr "Cambio Pendiente"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:595
-#: src/components/wallet/standard/WalletStandard.tsx:286
+#: src/components/wallet/standard/WalletStandard.tsx:293
 msgid "Pending Total Balance"
 msgstr "Saldo Pendiente Total"
 
@@ -1269,7 +1279,7 @@ msgstr "Por favor, introduzca un monto válido inicial de monedas"
 
 #: src/components/wallet/create/createNewColouredCoin.jsx:69
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:679
-#: src/components/wallet/standard/WalletStandard.tsx:392
+#: src/components/wallet/standard/WalletStandard.tsx:410
 msgid "Please enter a valid numeric amount"
 msgstr "Por favor, introduzca un monto numérico válido"
 
@@ -1277,7 +1287,7 @@ msgstr "Por favor, introduzca un monto numérico válido"
 #: src/components/wallet/create/createNewColouredCoin.jsx:81
 #: src/components/wallet/create/createRLAdmin.jsx:158
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:691
-#: src/components/wallet/standard/WalletStandard.tsx:402
+#: src/components/wallet/standard/WalletStandard.tsx:422
 msgid "Please enter a valid numeric fee"
 msgstr "Por favor, introduzca una tarifa numérica válida"
 
@@ -1294,7 +1304,7 @@ msgid "Please enter a valid pubkey"
 msgstr "Por favor, introduzca una llave pública válida"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:661
-#: src/components/wallet/standard/WalletStandard.tsx:375
+#: src/components/wallet/standard/WalletStandard.tsx:398
 msgid "Please finish syncing before making a transaction"
 msgstr "Por favor, termine de sincronizar antes de hacer una transacción"
 
@@ -1374,7 +1384,7 @@ msgstr "Llave Pública de Parcela"
 msgid "Plot Size"
 msgstr "Tamaño de Parcela"
 
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:63
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:68
 msgid "Plot in Parallel"
 msgstr "Sembrar en Paralelo"
 
@@ -1383,7 +1393,11 @@ msgid "Plot is duplicate of {0}"
 msgstr "La parcela es un duplicado de {0}"
 
 #: src/components/plotNFT/PlotNFTState.tsx:40
-msgid "PlotNFT is transitioning to (new state)"
+#~ msgid "PlotNFT is transitioning to (new state)"
+#~ msgstr ""
+
+#: src/components/plotNFT/PlotNFTState.tsx:45
+msgid "PlotNFT is transitioning to (target state)"
 msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:50
@@ -1453,8 +1467,8 @@ msgid "Pool Reward Amount"
 msgstr "Monto de Recompensa de Conjunto"
 
 #: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:65
-msgid "Pool URL: {poolUrl}"
-msgstr ""
+#~ msgid "Pool URL: {poolUrl}"
+#~ msgstr ""
 
 #: src/components/plotNFT/select/PlotNFTSelectPool.tsx:29
 msgid "Pool does not provide relative_lock_height."
@@ -1464,11 +1478,12 @@ msgstr ""
 msgid "Pool does not provide target_puzzle_hash."
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:196
+#: src/components/plotNFT/PlotNFTCard.tsx:204
+#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:64
 msgid "Pool:"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTState.tsx:55
+#: src/components/plotNFT/PlotNFTState.tsx:60
 msgid "Pooling"
 msgstr ""
 
@@ -1582,7 +1597,7 @@ msgid "Rate Limited User Wallet Setup"
 msgstr "Configuración de Cartera de Usuario con Tarifa Limitada"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:668
-#: src/components/wallet/standard/WalletStandard.tsx:564
+#: src/components/wallet/standard/WalletStandard.tsx:566
 msgid "Receive Address"
 msgstr "Dirección de recepción"
 
@@ -1622,10 +1637,9 @@ msgstr "Restaurar Metadatos de Monedas de Color y otras Carteras Inteligentes de
 #~ msgid "Restore Smart Wallets From Backup"
 #~ msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:100
 #: src/components/pool/PoolOverview.tsx:59
-msgid "Rewards"
-msgstr ""
+#~ msgid "Rewards"
+#~ msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:57
 #: src/components/fullNode/FullNodeConnections.jsx:107
@@ -1636,7 +1650,7 @@ msgstr ""
 msgid "Safe To Skip"
 msgstr "Es Seguro de Saltar"
 
-#: src/components/farm/FarmManageFarmingRewards.tsx:135
+#: src/components/farm/FarmManageFarmingRewards.tsx:142
 #: src/components/trading/CreateOffer.jsx:160
 msgid "Save"
 msgstr "Guardar"
@@ -1711,7 +1725,7 @@ msgstr ""
 msgid "Selected"
 msgstr "Seleccionado"
 
-#: src/components/plotNFT/PlotNFTState.tsx:49
+#: src/components/plotNFT/PlotNFTState.tsx:54
 msgid "Self Pooling"
 msgstr ""
 
@@ -1727,7 +1741,7 @@ msgstr "Vender"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:637
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:798
-#: src/components/wallet/standard/WalletStandard.tsx:526
+#: src/components/wallet/standard/WalletStandard.tsx:527
 msgid "Send"
 msgstr "Enviar"
 
@@ -1786,7 +1800,7 @@ msgstr "Monto Gastable por Intervalo"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:392
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:571
-#: src/components/wallet/standard/WalletStandard.tsx:259
+#: src/components/wallet/standard/WalletStandard.tsx:266
 msgid "Spendable Balance"
 msgstr "Saldo Gastable"
 
@@ -1813,7 +1827,7 @@ msgstr "Estado"
 #: src/components/fullNode/FullNode.jsx:130
 #: src/components/fullNode/FullNode.jsx:152
 #: src/components/plot/overview/PlotOverviewPlots.tsx:93
-#: src/components/plotNFT/PlotNFTCard.tsx:92
+#: src/components/plotNFT/PlotNFTCard.tsx:96
 #: src/components/pool/PoolOverview.tsx:35
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:56
@@ -1859,13 +1873,14 @@ msgid "Submit"
 msgstr "Enviar"
 
 #: src/components/fullNode/FullNode.jsx:131
-#: src/components/wallet/WalletStatus.tsx:37
+#: src/components/wallet/WalletStatus.tsx:36
 msgid "Synced"
 msgstr "Sincronizado"
 
 #: src/components/farm/FarmerStatus.tsx:19
 #: src/components/farm/card/FarmCardStatus.tsx:18
 #: src/components/plot/PlotStatus.tsx:18
+#: src/components/wallet/WalletStatus.tsx:41
 msgid "Syncing"
 msgstr "Sincronizando"
 
@@ -1878,8 +1893,8 @@ msgstr "Sincronizando <0/>/<1/>"
 #~ msgstr "Syncing {progress}/{tip}"
 
 #: src/components/wallet/WalletStatus.tsx:40
-msgid "Syncing. Height: {walletSyncingHeight}"
-msgstr ""
+#~ msgid "Syncing. Height: {walletSyncingHeight}"
+#~ msgstr ""
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
 #~ msgid "TXCH Block Rewards"
@@ -1946,6 +1961,10 @@ msgstr ""
 msgid "The pool URL speciefied is not valid. {poolUrl}"
 msgstr ""
 
+#: src/components/plotNFT/PlotNFTState.tsx:31
+msgid "The pool switching operation was cancelled, please try again by changing pool, or self pooling"
+msgstr ""
+
 #: src/components/block/Block.jsx:271
 msgid "The seed used to create the plot. This depends on the pool pk and plot pk."
 msgstr "La semilla utilizada para crear la parcela. Esto depende del conjunto pk y parcela pk."
@@ -1980,15 +1999,15 @@ msgstr ""
 msgid "This feature is available only from the GUI."
 msgstr "Esta característica esta disponible solo desde la interfaz gráfica."
 
-#: src/components/wallet/standard/WalletStandard.tsx:262
+#: src/components/wallet/standard/WalletStandard.tsx:269
 msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
 msgstr "Esta es la cantidad de chía que puede utilizar actualmente para realizar transacciones. No incluye recompensas de cultivo pendientes, transacciones entrantes pendientes y Chia que acaba de gastar pero que aún no está en la cadena de bloques."
 
-#: src/components/wallet/standard/WalletStandard.tsx:311
+#: src/components/wallet/standard/WalletStandard.tsx:318
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
 msgstr "Esto es un cambio pendiente, los cuales son cambios de monedas que usted se ha enviado a si mismo, pero todavía no han sido confirmados."
 
-#: src/components/wallet/standard/WalletStandard.tsx:300
+#: src/components/wallet/standard/WalletStandard.tsx:307
 msgid "This is the sum of the incoming and outgoing pending transactions (not yet included into the blockchain). This does not include farming rewards."
 msgstr "Esta es la suma de las transacciones pendientes entrantes y salientes (aún no incluidas en la cadena de bloques). Esto no incluye las recompensas de cultivo."
 
@@ -2000,11 +2019,11 @@ msgstr "Este es la hora del último sub-bloque pico."
 msgid "This is the time the block was created by the farmer, which is before it is finalized with a proof of time"
 msgstr "Este es el momento en que el agricultor creó el bloque, que es antes de que se finalice con una prueba de tiempo"
 
-#: src/components/wallet/standard/WalletStandard.tsx:250
+#: src/components/wallet/standard/WalletStandard.tsx:257
 msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr "Esta es la cantidad total de chía en la cadena de bloques en el sub-bloque cúspide actual que está controlado por sus llaves privadas. Incluye recompensas congeladas de cultivo, pero no transacciones pendientes de entrada y salida."
 
-#: src/components/wallet/standard/WalletStandard.tsx:289
+#: src/components/wallet/standard/WalletStandard.tsx:296
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
 msgstr "Este es el saldo total + saldo pendiente: es lo que será su saldo después de que se confirmen todas las transacciones pendientes."
 
@@ -2058,7 +2077,7 @@ msgstr "A"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:385
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:565
-#: src/components/wallet/standard/WalletStandard.tsx:247
+#: src/components/wallet/standard/WalletStandard.tsx:254
 msgid "Total Balance"
 msgstr "Saldo Total"
 
@@ -2079,8 +2098,8 @@ msgid "Total Plot Size:"
 msgstr "Tamaño Total de Parcela:"
 
 #: src/components/pool/PoolOverview.tsx:175
-msgid "Total Self Pooling Rewards"
-msgstr ""
+#~ msgid "Total Self Pooling Rewards"
+#~ msgstr ""
 
 #: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:13
 msgid "Total Size of Plots"
@@ -2138,6 +2157,11 @@ msgstr "Tipo"
 msgid "Unable to create plot NFT"
 msgstr ""
 
+#: src/components/plotNFT/PlotNFTCard.tsx:100
+#: src/components/pool/PoolOverview.tsx:55
+msgid "Unclaimed Rewards"
+msgstr ""
+
 #: src/components/plotNFT/PlotNFTState.tsx:34
 #~ msgid "Unconfirmed transaction"
 #~ msgstr ""
@@ -2167,11 +2191,11 @@ msgstr "Llave Pública de Usuario"
 msgid "VDF Sub Slot Iterations"
 msgstr "Iteraciones de subranura VDF"
 
-#: src/components/core/components/Fee/Fee.tsx:61
+#: src/components/core/components/Fee/Fee.tsx:28
 msgid "Value is too high"
 msgstr ""
 
-#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:139
+#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:137
 msgid "Verify Pool Details"
 msgstr ""
 
@@ -2189,7 +2213,7 @@ msgid "View Offer"
 msgstr "Ver Oferta"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:586
-#: src/components/wallet/standard/WalletStandard.tsx:280
+#: src/components/wallet/standard/WalletStandard.tsx:287
 msgid "View pending balances"
 msgstr "Ver Saldos Pendientes"
 
@@ -2212,7 +2236,7 @@ msgstr "Esperar sincronización"
 #~ msgid "Waiting for network to launch"
 #~ msgstr "Waiting for network to launch"
 
-#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:72
+#: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:73
 msgid "Waiting for the transaction to be confirmed"
 msgstr ""
 
@@ -2220,9 +2244,13 @@ msgstr ""
 #~ msgid "Waiting on transaction to hit the memory pool..."
 #~ msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:96
+#: src/components/plotNFT/PlotNFTCard.tsx:101
 #: src/components/pool/PoolOverview.tsx:39
-msgid "Wallet Status"
+#~ msgid "Wallet Status"
+#~ msgstr ""
+
+#: src/components/pool/PoolOverview.tsx:156
+msgid "Wallet Status:"
 msgstr ""
 
 #: src/components/wallet/Wallets.tsx:34
@@ -2317,7 +2345,7 @@ msgstr ""
 msgid "You are not self pooling"
 msgstr ""
 
-#: src/components/plotNFT/PlotNFTCard.tsx:281
+#: src/components/plotNFT/PlotNFTCard.tsx:289
 msgid "You can still create plots for this plot NFT, but you can not make changes until sync is complete."
 msgstr ""
 
@@ -2377,7 +2405,7 @@ msgstr "Su Conexión de Nodo Completo"
 msgid "Your Harvester Network"
 msgstr "Su Red de Cosechadores"
 
-#: src/components/pool/PoolOverview.tsx:154
+#: src/components/pool/PoolOverview.tsx:135
 msgid "Your Pool Overview"
 msgstr ""
 
@@ -2430,7 +2458,7 @@ msgstr "sincronizando"
 #~ msgid "{0} User Transaction Fees"
 #~ msgstr "{0} User Transaction Fees"
 
-#: src/components/plotNFT/PlotNFTGraph.tsx:70
+#: src/components/plotNFT/PlotNFTGraph.tsx:93
 msgid "{0} points {1} - {2} hours ago"
 msgstr ""
 
@@ -2446,6 +2474,6 @@ msgstr "{currencyCode} Total de Chia Cultivada"
 msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} Tarifas de Transacción del Usuario"
 
-#: src/components/core/components/Fee/Fee.tsx:56
+#: src/components/core/components/Amount/Amount.tsx:48
 msgid "{mojo, plural, one {mojo} other {mojos}}"
 msgstr ""
