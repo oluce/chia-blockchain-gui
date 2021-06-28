@@ -118,7 +118,7 @@ msgstr "Alamat / Hash teka-teki"
 #: src/components/core/components/Amount/Amount.tsx:63
 #: src/components/trading/CreateOffer.jsx:213
 #: src/components/trading/TradesTable.tsx:18
-#: src/components/wallet/WalletHistory.tsx:62
+#: src/components/wallet/WalletHistory.tsx:60
 #: src/components/wallet/create/createNewColouredCoin.jsx:125
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:770
 #: src/components/wallet/standard/WalletStandard.tsx:495
@@ -376,7 +376,7 @@ msgstr "Konfirmasi Pemutusan Koneksi"
 msgid "Confirmed at block:"
 msgstr "Dikonfirmasi pada block:"
 
-#: src/components/wallet/WalletHistory.tsx:52
+#: src/components/wallet/WalletHistory.tsx:50
 msgid "Confirmed at height {0}"
 msgstr "Dikonfirmasi pada tinggi {0}"
 
@@ -568,7 +568,7 @@ msgstr "Wallet DID"
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:32
 #: src/components/trading/TradingOverview.jsx:137
-#: src/components/wallet/WalletHistory.tsx:47
+#: src/components/wallet/WalletHistory.tsx:45
 msgid "Date"
 msgstr "Tanggal"
 
@@ -766,7 +766,7 @@ msgstr "Status Farming"
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:139
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:126
 #: src/components/pool/PoolInfo.tsx:30
-#: src/components/wallet/WalletHistory.tsx:66
+#: src/components/wallet/WalletHistory.tsx:64
 #: src/components/wallet/create/createExistingColouredCoin.jsx:131
 #: src/components/wallet/create/createNewColouredCoin.jsx:138
 #: src/components/wallet/create/createRLAdmin.jsx:266
@@ -879,7 +879,7 @@ msgstr "Bantu menterjemahkan"
 msgid "Hide Advanced Options"
 msgstr "Sembunyikan Opsi Tingkat Lanjut"
 
-#: src/components/wallet/WalletHistory.tsx:97
+#: src/components/wallet/WalletHistory.tsx:90
 msgid "History"
 msgstr "Riwayat"
 
@@ -912,7 +912,7 @@ msgstr "Impor dari Mnemonic (24 kata)"
 msgid "In Progress"
 msgstr "Sedang Berlangsung"
 
-#: src/components/wallet/WalletHistory.tsx:24
+#: src/components/wallet/WalletHistory.tsx:22
 msgid "Incoming"
 msgstr "Masuk"
 
@@ -1141,7 +1141,7 @@ msgstr "Tidak ada benih 24 kata, sejak kunci ini di impor."
 msgid "No blocks farmed yet"
 msgstr "Belum ada blok yang dibudidayakan"
 
-#: src/components/wallet/WalletHistory.tsx:109
+#: src/components/wallet/WalletHistory.tsx:102
 msgid "No previous transactions"
 msgstr "Tiada transaksi sebelum ini"
 
@@ -1225,7 +1225,7 @@ msgstr "Tawaran dicipta"
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr "Rata rata ada jarak 1 menit antara masing masing blok transaksi. Kecuali ada kebanyakan transaksi, transaksi biasanya akan di ikutkan dalam waktu kurang dari 1 menit."
 
-#: src/components/wallet/WalletHistory.tsx:23
+#: src/components/wallet/WalletHistory.tsx:21
 msgid "Outgoing"
 msgstr "Keluar"
 
@@ -1242,7 +1242,7 @@ msgid "Peak Time"
 msgstr "Puncak Masa"
 
 #: src/components/plotNFT/PlotNFTState.tsx:42
-#: src/components/wallet/WalletHistory.tsx:55
+#: src/components/wallet/WalletHistory.tsx:53
 msgid "Pending"
 msgstr "Dalam proses"
 
@@ -1832,7 +1832,7 @@ msgstr "Keadaan"
 #: src/components/plotNFT/PlotNFTCard.tsx:96
 #: src/components/pool/PoolOverview.tsx:35
 #: src/components/trading/TradingOverview.jsx:128
-#: src/components/wallet/WalletHistory.tsx:56
+#: src/components/wallet/WalletHistory.tsx:54
 #: src/components/wallet/WalletStatusCard.tsx:23
 #: src/components/wallet/Wallets.tsx:124
 msgid "Status"
@@ -2073,7 +2073,7 @@ msgstr "Waktu Dibuat"
 msgid "Timestamp"
 msgstr "Timestamp"
 
-#: src/components/wallet/WalletHistory.tsx:43
+#: src/components/wallet/WalletHistory.tsx:41
 msgid "To"
 msgstr "Ke"
 
@@ -2151,7 +2151,7 @@ msgstr "Sejarah Perdagangan"
 msgid "Transactions Filter Hash"
 msgstr "Seleksi Hash Transaksi"
 
-#: src/components/wallet/WalletHistory.tsx:26
+#: src/components/wallet/WalletHistory.tsx:24
 msgid "Type"
 msgstr "Jenis"
 

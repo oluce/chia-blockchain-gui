@@ -120,7 +120,7 @@ msgstr "آدرس/ جورچین هش(در هم ریزی)"
 #: src/components/core/components/Amount/Amount.tsx:63
 #: src/components/trading/CreateOffer.jsx:213
 #: src/components/trading/TradesTable.tsx:18
-#: src/components/wallet/WalletHistory.tsx:62
+#: src/components/wallet/WalletHistory.tsx:60
 #: src/components/wallet/create/createNewColouredCoin.jsx:125
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:770
 #: src/components/wallet/standard/WalletStandard.tsx:495
@@ -380,7 +380,7 @@ msgstr "تایید و قطع ارتباط"
 msgid "Confirmed at block:"
 msgstr "تایید شده در بلوک:"
 
-#: src/components/wallet/WalletHistory.tsx:52
+#: src/components/wallet/WalletHistory.tsx:50
 msgid "Confirmed at height {0}"
 msgstr "تایید شده در ارتفاع {0}"
 
@@ -572,7 +572,7 @@ msgstr "کیف پول DID"
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:32
 #: src/components/trading/TradingOverview.jsx:137
-#: src/components/wallet/WalletHistory.tsx:47
+#: src/components/wallet/WalletHistory.tsx:45
 msgid "Date"
 msgstr "تاریخ"
 
@@ -772,7 +772,7 @@ msgstr "وضعیت مزرعه داری"
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:139
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:126
 #: src/components/pool/PoolInfo.tsx:30
-#: src/components/wallet/WalletHistory.tsx:66
+#: src/components/wallet/WalletHistory.tsx:64
 #: src/components/wallet/create/createExistingColouredCoin.jsx:131
 #: src/components/wallet/create/createNewColouredCoin.jsx:138
 #: src/components/wallet/create/createRLAdmin.jsx:266
@@ -885,7 +885,7 @@ msgstr "کمک در ترجمه"
 msgid "Hide Advanced Options"
 msgstr "مخفی کردن گزینه های پیشرفته"
 
-#: src/components/wallet/WalletHistory.tsx:97
+#: src/components/wallet/WalletHistory.tsx:90
 msgid "History"
 msgstr "تاریخچه"
 
@@ -918,7 +918,7 @@ msgstr "رمزینه حفظی را وارد کنید(24 کلمه)"
 msgid "In Progress"
 msgstr "در حال انجام"
 
-#: src/components/wallet/WalletHistory.tsx:24
+#: src/components/wallet/WalletHistory.tsx:22
 msgid "Incoming"
 msgstr "دریافتی"
 
@@ -1147,7 +1147,7 @@ msgstr "هیچ بذر ۲۴ کلمه‌ای نیست، از هنگامی که ا�
 msgid "No blocks farmed yet"
 msgstr "هنوز هیچ بلاکی مزرعه داری(تولید) نشده است"
 
-#: src/components/wallet/WalletHistory.tsx:109
+#: src/components/wallet/WalletHistory.tsx:102
 msgid "No previous transactions"
 msgstr "بدون تراکنش های قبلی"
 
@@ -1233,7 +1233,7 @@ msgstr ""
 "به طور متوسط بین هر بلوک تراکنش یک دقیقه فاصله است\n"
 "تا زمانی که ازدحام وجود نداشته باشد ، انتظار دارید معامله شما در کمتر از یک دقیقه انجام شود."
 
-#: src/components/wallet/WalletHistory.tsx:23
+#: src/components/wallet/WalletHistory.tsx:21
 msgid "Outgoing"
 msgstr "در حال خروج"
 
@@ -1250,7 +1250,7 @@ msgid "Peak Time"
 msgstr "حداکثر زمان"
 
 #: src/components/plotNFT/PlotNFTState.tsx:42
-#: src/components/wallet/WalletHistory.tsx:55
+#: src/components/wallet/WalletHistory.tsx:53
 msgid "Pending"
 msgstr "در انتظار"
 
@@ -1838,7 +1838,7 @@ msgstr "حالت"
 #: src/components/plotNFT/PlotNFTCard.tsx:96
 #: src/components/pool/PoolOverview.tsx:35
 #: src/components/trading/TradingOverview.jsx:128
-#: src/components/wallet/WalletHistory.tsx:56
+#: src/components/wallet/WalletHistory.tsx:54
 #: src/components/wallet/WalletStatusCard.tsx:23
 #: src/components/wallet/Wallets.tsx:124
 msgid "Status"
@@ -2083,7 +2083,7 @@ msgstr "زمان ایجاد"
 msgid "Timestamp"
 msgstr "برچسب زمان"
 
-#: src/components/wallet/WalletHistory.tsx:43
+#: src/components/wallet/WalletHistory.tsx:41
 msgid "To"
 msgstr "به"
 
@@ -2161,7 +2161,7 @@ msgstr "تاریخچه معاملات"
 msgid "Transactions Filter Hash"
 msgstr "هشِ فیلتر تراکنش ها"
 
-#: src/components/wallet/WalletHistory.tsx:26
+#: src/components/wallet/WalletHistory.tsx:24
 msgid "Type"
 msgstr "نوع"
 

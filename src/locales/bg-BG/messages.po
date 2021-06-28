@@ -118,7 +118,7 @@ msgstr "Адрес / Пъзел Хеш"
 #: src/components/core/components/Amount/Amount.tsx:63
 #: src/components/trading/CreateOffer.jsx:213
 #: src/components/trading/TradesTable.tsx:18
-#: src/components/wallet/WalletHistory.tsx:62
+#: src/components/wallet/WalletHistory.tsx:60
 #: src/components/wallet/create/createNewColouredCoin.jsx:125
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:770
 #: src/components/wallet/standard/WalletStandard.tsx:495
@@ -376,7 +376,7 @@ msgstr "Потвърди прекратяването на връзката"
 msgid "Confirmed at block:"
 msgstr "Потвърден на блок:"
 
-#: src/components/wallet/WalletHistory.tsx:52
+#: src/components/wallet/WalletHistory.tsx:50
 msgid "Confirmed at height {0}"
 msgstr "Потвърден на височина {0}"
 
@@ -568,7 +568,7 @@ msgstr "DID портфейл"
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:32
 #: src/components/trading/TradingOverview.jsx:137
-#: src/components/wallet/WalletHistory.tsx:47
+#: src/components/wallet/WalletHistory.tsx:45
 msgid "Date"
 msgstr "Дата"
 
@@ -766,7 +766,7 @@ msgstr "Статус на фарменето"
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:139
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:126
 #: src/components/pool/PoolInfo.tsx:30
-#: src/components/wallet/WalletHistory.tsx:66
+#: src/components/wallet/WalletHistory.tsx:64
 #: src/components/wallet/create/createExistingColouredCoin.jsx:131
 #: src/components/wallet/create/createNewColouredCoin.jsx:138
 #: src/components/wallet/create/createRLAdmin.jsx:266
@@ -879,7 +879,7 @@ msgstr "Помогнете за превода"
 msgid "Hide Advanced Options"
 msgstr "Скриване на разширените опции"
 
-#: src/components/wallet/WalletHistory.tsx:97
+#: src/components/wallet/WalletHistory.tsx:90
 msgid "History"
 msgstr "История"
 
@@ -912,7 +912,7 @@ msgstr "Внеси от мнемоники (24 думи)"
 msgid "In Progress"
 msgstr "Изпълнява се"
 
-#: src/components/wallet/WalletHistory.tsx:24
+#: src/components/wallet/WalletHistory.tsx:22
 msgid "Incoming"
 msgstr "Входящи"
 
@@ -1141,7 +1141,7 @@ msgstr "Няма ключ от 24 думи, тъй като този часте�
 msgid "No blocks farmed yet"
 msgstr "Все още няма изкопани блокове"
 
-#: src/components/wallet/WalletHistory.tsx:109
+#: src/components/wallet/WalletHistory.tsx:102
 msgid "No previous transactions"
 msgstr "Няма предишни транзакции"
 
@@ -1225,7 +1225,7 @@ msgstr "Създадени оферти"
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr ""
 
-#: src/components/wallet/WalletHistory.tsx:23
+#: src/components/wallet/WalletHistory.tsx:21
 msgid "Outgoing"
 msgstr "Изходящи"
 
@@ -1242,7 +1242,7 @@ msgid "Peak Time"
 msgstr "Пиково време"
 
 #: src/components/plotNFT/PlotNFTState.tsx:42
-#: src/components/wallet/WalletHistory.tsx:55
+#: src/components/wallet/WalletHistory.tsx:53
 msgid "Pending"
 msgstr "Изчакващо"
 
@@ -1832,7 +1832,7 @@ msgstr "Състояние"
 #: src/components/plotNFT/PlotNFTCard.tsx:96
 #: src/components/pool/PoolOverview.tsx:35
 #: src/components/trading/TradingOverview.jsx:128
-#: src/components/wallet/WalletHistory.tsx:56
+#: src/components/wallet/WalletHistory.tsx:54
 #: src/components/wallet/WalletStatusCard.tsx:23
 #: src/components/wallet/Wallets.tsx:124
 msgid "Status"
@@ -2073,7 +2073,7 @@ msgstr "Време на създаване"
 msgid "Timestamp"
 msgstr "Времево клеймо"
 
-#: src/components/wallet/WalletHistory.tsx:43
+#: src/components/wallet/WalletHistory.tsx:41
 msgid "To"
 msgstr "Към"
 
@@ -2151,7 +2151,7 @@ msgstr "История на търговията"
 msgid "Transactions Filter Hash"
 msgstr "Хеш на филтъра за транзакции"
 
-#: src/components/wallet/WalletHistory.tsx:26
+#: src/components/wallet/WalletHistory.tsx:24
 msgid "Type"
 msgstr "Тип"
 

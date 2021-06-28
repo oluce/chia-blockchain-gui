@@ -118,7 +118,7 @@ msgstr "アドレス・パズルハッシュ値"
 #: src/components/core/components/Amount/Amount.tsx:63
 #: src/components/trading/CreateOffer.jsx:213
 #: src/components/trading/TradesTable.tsx:18
-#: src/components/wallet/WalletHistory.tsx:62
+#: src/components/wallet/WalletHistory.tsx:60
 #: src/components/wallet/create/createNewColouredCoin.jsx:125
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:770
 #: src/components/wallet/standard/WalletStandard.tsx:495
@@ -376,7 +376,7 @@ msgstr "接続解除の確認"
 msgid "Confirmed at block:"
 msgstr "承認ブロック:"
 
-#: src/components/wallet/WalletHistory.tsx:52
+#: src/components/wallet/WalletHistory.tsx:50
 msgid "Confirmed at height {0}"
 msgstr "高さ {0} で承認完了"
 
@@ -568,7 +568,7 @@ msgstr "DID ウォレット"
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:32
 #: src/components/trading/TradingOverview.jsx:137
-#: src/components/wallet/WalletHistory.tsx:47
+#: src/components/wallet/WalletHistory.tsx:45
 msgid "Date"
 msgstr "日時"
 
@@ -766,7 +766,7 @@ msgstr "耕作の状態"
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:139
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:126
 #: src/components/pool/PoolInfo.tsx:30
-#: src/components/wallet/WalletHistory.tsx:66
+#: src/components/wallet/WalletHistory.tsx:64
 #: src/components/wallet/create/createExistingColouredCoin.jsx:131
 #: src/components/wallet/create/createNewColouredCoin.jsx:138
 #: src/components/wallet/create/createRLAdmin.jsx:266
@@ -879,7 +879,7 @@ msgstr "翻訳に協力"
 msgid "Hide Advanced Options"
 msgstr "詳細設定を隠す"
 
-#: src/components/wallet/WalletHistory.tsx:97
+#: src/components/wallet/WalletHistory.tsx:90
 msgid "History"
 msgstr "取引履歴"
 
@@ -912,7 +912,7 @@ msgstr "合言葉 (24語) で鍵をインポート"
 msgid "In Progress"
 msgstr "進行中"
 
-#: src/components/wallet/WalletHistory.tsx:24
+#: src/components/wallet/WalletHistory.tsx:22
 msgid "Incoming"
 msgstr "入金"
 
@@ -1141,7 +1141,7 @@ msgstr "この鍵はインポートされているため、24語の種があり�
 msgid "No blocks farmed yet"
 msgstr "まだ収穫ブロックはありません"
 
-#: src/components/wallet/WalletHistory.tsx:109
+#: src/components/wallet/WalletHistory.tsx:102
 msgid "No previous transactions"
 msgstr "履歴無し"
 
@@ -1225,7 +1225,7 @@ msgstr "作成した注文"
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr "取引ブロックは約1分間隔で作成されます。混雑時を除き、1分以内にあなたの送金も取り込まれるはずです。"
 
-#: src/components/wallet/WalletHistory.tsx:23
+#: src/components/wallet/WalletHistory.tsx:21
 msgid "Outgoing"
 msgstr "出金"
 
@@ -1242,7 +1242,7 @@ msgid "Peak Time"
 msgstr "先端の日時"
 
 #: src/components/plotNFT/PlotNFTState.tsx:42
-#: src/components/wallet/WalletHistory.tsx:55
+#: src/components/wallet/WalletHistory.tsx:53
 msgid "Pending"
 msgstr "保留中"
 
@@ -1830,7 +1830,7 @@ msgstr "状態"
 #: src/components/plotNFT/PlotNFTCard.tsx:96
 #: src/components/pool/PoolOverview.tsx:35
 #: src/components/trading/TradingOverview.jsx:128
-#: src/components/wallet/WalletHistory.tsx:56
+#: src/components/wallet/WalletHistory.tsx:54
 #: src/components/wallet/WalletStatusCard.tsx:23
 #: src/components/wallet/Wallets.tsx:124
 msgid "Status"
@@ -2071,7 +2071,7 @@ msgstr "作成日時"
 msgid "Timestamp"
 msgstr "タイムスタンプ"
 
-#: src/components/wallet/WalletHistory.tsx:43
+#: src/components/wallet/WalletHistory.tsx:41
 msgid "To"
 msgstr "宛先"
 
@@ -2149,7 +2149,7 @@ msgstr "交換履歴"
 msgid "Transactions Filter Hash"
 msgstr "取引フィルターハッシュ値"
 
-#: src/components/wallet/WalletHistory.tsx:26
+#: src/components/wallet/WalletHistory.tsx:24
 msgid "Type"
 msgstr "種類"
 

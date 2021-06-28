@@ -118,7 +118,7 @@ msgstr "주소 / 퍼즐 해시"
 #: src/components/core/components/Amount/Amount.tsx:63
 #: src/components/trading/CreateOffer.jsx:213
 #: src/components/trading/TradesTable.tsx:18
-#: src/components/wallet/WalletHistory.tsx:62
+#: src/components/wallet/WalletHistory.tsx:60
 #: src/components/wallet/create/createNewColouredCoin.jsx:125
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:770
 #: src/components/wallet/standard/WalletStandard.tsx:495
@@ -376,7 +376,7 @@ msgstr "연결 해제 확인"
 msgid "Confirmed at block:"
 msgstr "다음 블록에서 확인됨:"
 
-#: src/components/wallet/WalletHistory.tsx:52
+#: src/components/wallet/WalletHistory.tsx:50
 msgid "Confirmed at height {0}"
 msgstr "높이 {0} 에서 확인됨"
 
@@ -568,7 +568,7 @@ msgstr "DID 지갑"
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:32
 #: src/components/trading/TradingOverview.jsx:137
-#: src/components/wallet/WalletHistory.tsx:47
+#: src/components/wallet/WalletHistory.tsx:45
 msgid "Date"
 msgstr "날짜"
 
@@ -766,7 +766,7 @@ msgstr "수확 상태"
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:139
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:126
 #: src/components/pool/PoolInfo.tsx:30
-#: src/components/wallet/WalletHistory.tsx:66
+#: src/components/wallet/WalletHistory.tsx:64
 #: src/components/wallet/create/createExistingColouredCoin.jsx:131
 #: src/components/wallet/create/createNewColouredCoin.jsx:138
 #: src/components/wallet/create/createRLAdmin.jsx:266
@@ -879,7 +879,7 @@ msgstr "번역 돕기"
 msgid "Hide Advanced Options"
 msgstr "고급 옵션 숨기기"
 
-#: src/components/wallet/WalletHistory.tsx:97
+#: src/components/wallet/WalletHistory.tsx:90
 msgid "History"
 msgstr "이력"
 
@@ -912,7 +912,7 @@ msgstr "니모닉에서 불러오기 (24단어)"
 msgid "In Progress"
 msgstr "처리 중"
 
-#: src/components/wallet/WalletHistory.tsx:24
+#: src/components/wallet/WalletHistory.tsx:22
 msgid "Incoming"
 msgstr "수입"
 
@@ -1141,7 +1141,7 @@ msgstr "24 단어의 씨드가 없습니다, 나중에 키를 가져 옵니다."
 msgid "No blocks farmed yet"
 msgstr "아직 수확한 블록이 없습니다"
 
-#: src/components/wallet/WalletHistory.tsx:109
+#: src/components/wallet/WalletHistory.tsx:102
 msgid "No previous transactions"
 msgstr "거래 내역이 없습니다"
 
@@ -1225,7 +1225,7 @@ msgstr "거래 주문이 생성되었습니다."
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr "당신이 보낸 트랜잭션(이체) 주문이 1분 이내로 처리된다고 느끼겠지만, 평균적으로는 각 트랜잭션 블록은 1분 정도의 차이를 두고 있습니다."
 
-#: src/components/wallet/WalletHistory.tsx:23
+#: src/components/wallet/WalletHistory.tsx:21
 msgid "Outgoing"
 msgstr "내보내는 중"
 
@@ -1242,7 +1242,7 @@ msgid "Peak Time"
 msgstr "절정 시간"
 
 #: src/components/plotNFT/PlotNFTState.tsx:42
-#: src/components/wallet/WalletHistory.tsx:55
+#: src/components/wallet/WalletHistory.tsx:53
 msgid "Pending"
 msgstr "대기중"
 
@@ -1830,7 +1830,7 @@ msgstr "상태"
 #: src/components/plotNFT/PlotNFTCard.tsx:96
 #: src/components/pool/PoolOverview.tsx:35
 #: src/components/trading/TradingOverview.jsx:128
-#: src/components/wallet/WalletHistory.tsx:56
+#: src/components/wallet/WalletHistory.tsx:54
 #: src/components/wallet/WalletStatusCard.tsx:23
 #: src/components/wallet/Wallets.tsx:124
 msgid "Status"
@@ -2071,7 +2071,7 @@ msgstr "생성 시간"
 msgid "Timestamp"
 msgstr "타임스탬프"
 
-#: src/components/wallet/WalletHistory.tsx:43
+#: src/components/wallet/WalletHistory.tsx:41
 msgid "To"
 msgstr "수신"
 
@@ -2149,7 +2149,7 @@ msgstr "거래내역"
 msgid "Transactions Filter Hash"
 msgstr "거래 필터 해시"
 
-#: src/components/wallet/WalletHistory.tsx:26
+#: src/components/wallet/WalletHistory.tsx:24
 msgid "Type"
 msgstr "종류"
 

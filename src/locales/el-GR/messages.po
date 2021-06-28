@@ -118,7 +118,7 @@ msgstr "Διεύθυνση / Puzzle hash"
 #: src/components/core/components/Amount/Amount.tsx:63
 #: src/components/trading/CreateOffer.jsx:213
 #: src/components/trading/TradesTable.tsx:18
-#: src/components/wallet/WalletHistory.tsx:62
+#: src/components/wallet/WalletHistory.tsx:60
 #: src/components/wallet/create/createNewColouredCoin.jsx:125
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:770
 #: src/components/wallet/standard/WalletStandard.tsx:495
@@ -376,7 +376,7 @@ msgstr "Επιβεβαίωση Αποσύνδεσης"
 msgid "Confirmed at block:"
 msgstr "Επιβεβαιώθηκε στο block:"
 
-#: src/components/wallet/WalletHistory.tsx:52
+#: src/components/wallet/WalletHistory.tsx:50
 msgid "Confirmed at height {0}"
 msgstr "Επιβεβαιώθηκε στο ύψος {0}"
 
@@ -568,7 +568,7 @@ msgstr "DID Πορτοφόλι"
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:32
 #: src/components/trading/TradingOverview.jsx:137
-#: src/components/wallet/WalletHistory.tsx:47
+#: src/components/wallet/WalletHistory.tsx:45
 msgid "Date"
 msgstr "Ημερομηνία"
 
@@ -766,7 +766,7 @@ msgstr "Κατάσταση Συγκομιδής"
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:139
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:126
 #: src/components/pool/PoolInfo.tsx:30
-#: src/components/wallet/WalletHistory.tsx:66
+#: src/components/wallet/WalletHistory.tsx:64
 #: src/components/wallet/create/createExistingColouredCoin.jsx:131
 #: src/components/wallet/create/createNewColouredCoin.jsx:138
 #: src/components/wallet/create/createRLAdmin.jsx:266
@@ -879,7 +879,7 @@ msgstr "Βοηθήστε στην Μετάφραση"
 msgid "Hide Advanced Options"
 msgstr "Απόκρυψη Προχωρημένων επιλογών"
 
-#: src/components/wallet/WalletHistory.tsx:97
+#: src/components/wallet/WalletHistory.tsx:90
 msgid "History"
 msgstr "Ιστορικό"
 
@@ -912,7 +912,7 @@ msgstr "Εισαγωγή από Mnemonics (24 λέξεις)"
 msgid "In Progress"
 msgstr "Σε Εξέλιξη"
 
-#: src/components/wallet/WalletHistory.tsx:24
+#: src/components/wallet/WalletHistory.tsx:22
 msgid "Incoming"
 msgstr "Εισερχόμενες"
 
@@ -1141,7 +1141,7 @@ msgstr "Κανένα seed 24 λέξεων, καθώς αυτό το κλειδί
 msgid "No blocks farmed yet"
 msgstr "Κανένα block δεν έχει συγκομιστεί ακόμη"
 
-#: src/components/wallet/WalletHistory.tsx:109
+#: src/components/wallet/WalletHistory.tsx:102
 msgid "No previous transactions"
 msgstr "Δεν υπάρχουν προηγούμενες συναλλαγές"
 
@@ -1225,7 +1225,7 @@ msgstr "Δημιουργήθηκαν Προσφορές"
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr "Κατά μέσο όρο υπάρχει ένα λεπτό μεταξύ κάθε μπλοκ συναλλαγών. Αν δεν υπάρχει συμφόρηση, μπορείτε να περιμένετε ότι η συναλλαγή σας θα συμπεριληφθεί σε λιγότερο από ένα λεπτό."
 
-#: src/components/wallet/WalletHistory.tsx:23
+#: src/components/wallet/WalletHistory.tsx:21
 msgid "Outgoing"
 msgstr "Εξερχόμενες"
 
@@ -1242,7 +1242,7 @@ msgid "Peak Time"
 msgstr "Peak Time"
 
 #: src/components/plotNFT/PlotNFTState.tsx:42
-#: src/components/wallet/WalletHistory.tsx:55
+#: src/components/wallet/WalletHistory.tsx:53
 msgid "Pending"
 msgstr "Εκκρεμεί"
 
@@ -1830,7 +1830,7 @@ msgstr "Κατάσταση"
 #: src/components/plotNFT/PlotNFTCard.tsx:96
 #: src/components/pool/PoolOverview.tsx:35
 #: src/components/trading/TradingOverview.jsx:128
-#: src/components/wallet/WalletHistory.tsx:56
+#: src/components/wallet/WalletHistory.tsx:54
 #: src/components/wallet/WalletStatusCard.tsx:23
 #: src/components/wallet/Wallets.tsx:124
 msgid "Status"
@@ -2071,7 +2071,7 @@ msgstr "Ώρα δημιουργίας"
 msgid "Timestamp"
 msgstr "Χρονικό Στιγμιότυπο"
 
-#: src/components/wallet/WalletHistory.tsx:43
+#: src/components/wallet/WalletHistory.tsx:41
 msgid "To"
 msgstr "Προς"
 
@@ -2149,7 +2149,7 @@ msgstr "Ιστορικό Συναλλαγών"
 msgid "Transactions Filter Hash"
 msgstr "Hash Φίλτρο Συναλλαγών"
 
-#: src/components/wallet/WalletHistory.tsx:26
+#: src/components/wallet/WalletHistory.tsx:24
 msgid "Type"
 msgstr "Τύπος"
 

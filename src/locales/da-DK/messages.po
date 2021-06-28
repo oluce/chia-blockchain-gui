@@ -118,7 +118,7 @@ msgstr "Addresse / Puzzle hash"
 #: src/components/core/components/Amount/Amount.tsx:63
 #: src/components/trading/CreateOffer.jsx:213
 #: src/components/trading/TradesTable.tsx:18
-#: src/components/wallet/WalletHistory.tsx:62
+#: src/components/wallet/WalletHistory.tsx:60
 #: src/components/wallet/create/createNewColouredCoin.jsx:125
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:770
 #: src/components/wallet/standard/WalletStandard.tsx:495
@@ -376,7 +376,7 @@ msgstr "Bekræft Afkobling"
 msgid "Confirmed at block:"
 msgstr "Bekræftet ved block:"
 
-#: src/components/wallet/WalletHistory.tsx:52
+#: src/components/wallet/WalletHistory.tsx:50
 msgid "Confirmed at height {0}"
 msgstr "Bekræftet ved højde {0}"
 
@@ -568,7 +568,7 @@ msgstr "DID pung"
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:32
 #: src/components/trading/TradingOverview.jsx:137
-#: src/components/wallet/WalletHistory.tsx:47
+#: src/components/wallet/WalletHistory.tsx:45
 msgid "Date"
 msgstr "Dato"
 
@@ -766,7 +766,7 @@ msgstr "Farmer Status"
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:139
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:126
 #: src/components/pool/PoolInfo.tsx:30
-#: src/components/wallet/WalletHistory.tsx:66
+#: src/components/wallet/WalletHistory.tsx:64
 #: src/components/wallet/create/createExistingColouredCoin.jsx:131
 #: src/components/wallet/create/createNewColouredCoin.jsx:138
 #: src/components/wallet/create/createRLAdmin.jsx:266
@@ -879,7 +879,7 @@ msgstr "Hjælp med oversættelse"
 msgid "Hide Advanced Options"
 msgstr "Gem Avanceret Indstillinger"
 
-#: src/components/wallet/WalletHistory.tsx:97
+#: src/components/wallet/WalletHistory.tsx:90
 msgid "History"
 msgstr "Historie"
 
@@ -912,7 +912,7 @@ msgstr "Importer fra mnemonik (24 ord)"
 msgid "In Progress"
 msgstr "Igangværende"
 
-#: src/components/wallet/WalletHistory.tsx:24
+#: src/components/wallet/WalletHistory.tsx:22
 msgid "Incoming"
 msgstr "Indgående"
 
@@ -1141,7 +1141,7 @@ msgstr "Ingen 24 ord seed, da denne nøgle allerede er importeret."
 msgid "No blocks farmed yet"
 msgstr "Ingen blokke farmet endnu"
 
-#: src/components/wallet/WalletHistory.tsx:109
+#: src/components/wallet/WalletHistory.tsx:102
 msgid "No previous transactions"
 msgstr "Ingen tidligere transaktioner"
 
@@ -1225,7 +1225,7 @@ msgstr "Bud Oprettet"
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr "I gennemsnit er der et minut mellem hver transaktionsblok. Medmindre der er overbelastning, kan du forvente, at din transaktion bliver inkluderet på mindre end et minut."
 
-#: src/components/wallet/WalletHistory.tsx:23
+#: src/components/wallet/WalletHistory.tsx:21
 msgid "Outgoing"
 msgstr "Udgående"
 
@@ -1242,7 +1242,7 @@ msgid "Peak Time"
 msgstr "Top Tidspunkt"
 
 #: src/components/plotNFT/PlotNFTState.tsx:42
-#: src/components/wallet/WalletHistory.tsx:55
+#: src/components/wallet/WalletHistory.tsx:53
 msgid "Pending"
 msgstr "Afventende"
 
@@ -1830,7 +1830,7 @@ msgstr "Status"
 #: src/components/plotNFT/PlotNFTCard.tsx:96
 #: src/components/pool/PoolOverview.tsx:35
 #: src/components/trading/TradingOverview.jsx:128
-#: src/components/wallet/WalletHistory.tsx:56
+#: src/components/wallet/WalletHistory.tsx:54
 #: src/components/wallet/WalletStatusCard.tsx:23
 #: src/components/wallet/Wallets.tsx:124
 msgid "Status"
@@ -2071,7 +2071,7 @@ msgstr "Tid Oprettet"
 msgid "Timestamp"
 msgstr "Tidsstempel"
 
-#: src/components/wallet/WalletHistory.tsx:43
+#: src/components/wallet/WalletHistory.tsx:41
 msgid "To"
 msgstr "Til"
 
@@ -2149,7 +2149,7 @@ msgstr "Handelshistorik"
 msgid "Transactions Filter Hash"
 msgstr "Transaktionsfilter Hash"
 
-#: src/components/wallet/WalletHistory.tsx:26
+#: src/components/wallet/WalletHistory.tsx:24
 msgid "Type"
 msgstr "Type"
 
