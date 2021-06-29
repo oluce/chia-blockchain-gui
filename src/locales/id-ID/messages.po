@@ -88,6 +88,7 @@ msgstr "Tambah Wallet"
 #: src/components/plot/PlotHeader.tsx:54
 #: src/components/plot/add/PlotAdd.tsx:158
 #: src/components/plot/overview/PlotOverviewHero.tsx:40
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:165
 #: src/components/plotNFT/PlotNFTCard.tsx:184
 msgid "Add a Plot"
 msgstr "Tambah sebuah Plot"
@@ -106,12 +107,12 @@ msgstr "Tambah direktori plot"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:574
 #: src/components/wallet/coloured/WalletColoured.tsx:677
-#: src/components/wallet/standard/WalletStandard.tsx:585
+#: src/components/wallet/standard/WalletStandard.tsx:587
 msgid "Address"
 msgstr "Alamat"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:748
-#: src/components/wallet/standard/WalletStandard.tsx:485
+#: src/components/wallet/standard/WalletStandard.tsx:487
 msgid "Address / Puzzle hash"
 msgstr "Alamat / Hash teka-teki"
 
@@ -121,7 +122,7 @@ msgstr "Alamat / Hash teka-teki"
 #: src/components/wallet/WalletHistory.tsx:60
 #: src/components/wallet/create/createNewColouredCoin.jsx:125
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:770
-#: src/components/wallet/standard/WalletStandard.tsx:495
+#: src/components/wallet/standard/WalletStandard.tsx:497
 msgid "Amount"
 msgstr "Jumlah"
 
@@ -170,7 +171,7 @@ msgstr "Berkas cadangan digunakan untuk mengembalikan smart wallet."
 
 #: src/components/wallet/coloured/WalletColoured.tsx:381
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:562
-#: src/components/wallet/standard/WalletStandard.tsx:252
+#: src/components/wallet/standard/WalletStandard.tsx:253
 msgid "Balance"
 msgstr "Saldo"
 
@@ -307,7 +308,7 @@ msgid "Chia Blockchain Wiki"
 msgstr "Wiki Chia Blockchain"
 
 #: src/components/wallet/Wallets.tsx:57
-#: src/components/wallet/standard/WalletStandard.tsx:621
+#: src/components/wallet/standard/WalletStandard.tsx:623
 msgid "Chia Wallet"
 msgstr "Wallet Chia"
 
@@ -478,7 +479,7 @@ msgstr "Buat Tawaran Pertukaran"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:555
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:729
-#: src/components/wallet/standard/WalletStandard.tsx:461
+#: src/components/wallet/standard/WalletStandard.tsx:463
 msgid "Create Transaction"
 msgstr "Buat Transaksi"
 
@@ -542,10 +543,12 @@ msgstr ""
 msgid "Currency code is not defined"
 msgstr ""
 
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:102
 #: src/components/plotNFT/PlotNFTCard.tsx:121
 msgid "Current Difficulty"
 msgstr ""
 
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:117
 #: src/components/plotNFT/PlotNFTCard.tsx:136
 msgid "Current Points Balance"
 msgstr ""
@@ -591,7 +594,7 @@ msgid "Delete Plot"
 msgstr "Hapus Plot"
 
 #: src/components/plotNFT/PlotNFTCard.tsx:192
-#: src/components/wallet/standard/WalletStandard.tsx:632
+#: src/components/wallet/standard/WalletStandard.tsx:634
 msgid "Delete Unconfirmed Transactions"
 msgstr ""
 
@@ -685,7 +688,7 @@ msgstr "Masukkan 24 kata mnemonik yang telah anda simpan untuk mengembalikan dom
 msgid "Error"
 msgstr "Error"
 
-#: src/components/wallet/standard/WalletStandard.tsx:434
+#: src/components/wallet/standard/WalletStandard.tsx:436
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
 msgstr "Error: Tidak dapat mengirim Chia ke alamat berwarna. Mohon masukkan sebuah alamat Chia."
 
@@ -717,7 +720,7 @@ msgstr "Gagal membuka (plot tidak valid)"
 
 #: src/components/dashboard/DashboardSideBar.tsx:55
 #: src/components/wallet/coloured/WalletColoured.tsx:627
-#: src/components/wallet/standard/WalletStandard.tsx:517
+#: src/components/wallet/standard/WalletStandard.tsx:519
 msgid "Farm"
 msgstr "Farm"
 
@@ -772,7 +775,7 @@ msgstr "Status Farming"
 #: src/components/wallet/create/createRLAdmin.jsx:266
 #: src/components/wallet/create/createRLAdmin.jsx:298
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:783
-#: src/components/wallet/standard/WalletStandard.tsx:506
+#: src/components/wallet/standard/WalletStandard.tsx:508
 msgid "Fee"
 msgstr "Biaya"
 
@@ -841,11 +844,11 @@ msgstr "Layar Penuh"
 msgid "Generate New Colour"
 msgstr "Hasilkan Warna Baru"
 
-#: src/components/pool/PoolOverview.tsx:149
+#: src/components/pool/PoolOverview.tsx:151
 msgid "Grid view"
 msgstr ""
 
-#: src/components/wallet/standard/WalletStandard.tsx:576
+#: src/components/wallet/standard/WalletStandard.tsx:578
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "HD atau kunci Hierarchical Deterministic adalah salah satu skema kunci publik/privat dimana satu kunci privat dapat memiliki kunci publik nyaris tak terbatas (dan juga alamat penerimaan dompet) yang ujungnya akan kembali ke dan dapat digunakan oleh satu kunci privat."
 
@@ -1001,6 +1004,7 @@ msgstr "Puncak Tertuai Terakhir"
 msgid "Latest Block Challenges"
 msgstr "Blok Challenge Terbaru"
 
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:200
 #: src/components/plotNFT/PlotNFTCard.tsx:227
 msgid "Launcher Id"
 msgstr ""
@@ -1009,7 +1013,7 @@ msgstr ""
 msgid "Leaving Pool"
 msgstr ""
 
-#: src/components/pool/PoolOverview.tsx:149
+#: src/components/pool/PoolOverview.tsx:151
 msgid "List view"
 msgstr ""
 
@@ -1110,7 +1114,7 @@ msgstr "Nama jaringan"
 #~ msgstr "Network not launched yet, waiting for genesis challenge!"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:706
-#: src/components/wallet/standard/WalletStandard.tsx:572
+#: src/components/wallet/standard/WalletStandard.tsx:574
 msgid "New Address"
 msgstr "Alamat Baru"
 
@@ -1197,6 +1201,7 @@ msgstr "Tidak dijumpai plot-plot"
 msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
 msgstr ""
 
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:85
 #: src/components/plotNFT/PlotNFTCard.tsx:104
 msgid "Number of Plots"
 msgstr ""
@@ -1221,7 +1226,7 @@ msgstr "Tawaran"
 msgid "Offers Created"
 msgstr "Tawaran dicipta"
 
-#: src/components/wallet/standard/WalletStandard.tsx:463
+#: src/components/wallet/standard/WalletStandard.tsx:465
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr "Rata rata ada jarak 1 menit antara masing masing blok transaksi. Kecuali ada kebanyakan transaksi, transaksi biasanya akan di ikutkan dalam waktu kurang dari 1 menit."
 
@@ -1247,17 +1252,17 @@ msgid "Pending"
 msgstr "Dalam proses"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:604
-#: src/components/wallet/standard/WalletStandard.tsx:304
+#: src/components/wallet/standard/WalletStandard.tsx:305
 msgid "Pending Balance"
 msgstr "Dalam Proses Mengira Saldo"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:613
-#: src/components/wallet/standard/WalletStandard.tsx:315
+#: src/components/wallet/standard/WalletStandard.tsx:316
 msgid "Pending Change"
 msgstr "Perubahan Tertunda"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:595
-#: src/components/wallet/standard/WalletStandard.tsx:293
+#: src/components/wallet/standard/WalletStandard.tsx:294
 msgid "Pending Total Balance"
 msgstr "Proses Mengira Jumlah Saldo"
 
@@ -1279,7 +1284,7 @@ msgstr "Silakan masukkan jumlah Sebelum pajak yang valid"
 
 #: src/components/wallet/create/createNewColouredCoin.jsx:69
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:679
-#: src/components/wallet/standard/WalletStandard.tsx:410
+#: src/components/wallet/standard/WalletStandard.tsx:412
 msgid "Please enter a valid numeric amount"
 msgstr "Sila masukkan nombor yang valid"
 
@@ -1287,7 +1292,7 @@ msgstr "Sila masukkan nombor yang valid"
 #: src/components/wallet/create/createNewColouredCoin.jsx:81
 #: src/components/wallet/create/createRLAdmin.jsx:158
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:691
-#: src/components/wallet/standard/WalletStandard.tsx:422
+#: src/components/wallet/standard/WalletStandard.tsx:424
 msgid "Please enter a valid numeric fee"
 msgstr "Silahkan memasukkan angka biaya yang sah"
 
@@ -1304,7 +1309,7 @@ msgid "Please enter a valid pubkey"
 msgstr "Silakan masukkan public key yang valid"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:661
-#: src/components/wallet/standard/WalletStandard.tsx:398
+#: src/components/wallet/standard/WalletStandard.tsx:400
 msgid "Please finish syncing before making a transaction"
 msgstr "Silahkan menyelesaikan sinkronisasi sebelum melakukan sebuah transaksi"
 
@@ -1430,10 +1435,12 @@ msgstr "Membuat plot dengan bitfield yang diaktifkan akan memiliki sekitar 30% l
 #~ msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
 #~ msgstr ""
 
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:134
 #: src/components/plotNFT/PlotNFTCard.tsx:153
 msgid "Points Found Since Start"
 msgstr ""
 
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:142
 #: src/components/plotNFT/PlotNFTCard.tsx:161
 msgid "Points Found in Last 24 Hours"
 msgstr ""
@@ -1480,6 +1487,7 @@ msgstr ""
 msgid "Pool does not provide target_puzzle_hash."
 msgstr ""
 
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:177
 #: src/components/plotNFT/PlotNFTCard.tsx:204
 #: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:64
 msgid "Pool:"
@@ -1599,7 +1607,7 @@ msgid "Rate Limited User Wallet Setup"
 msgstr "Dompet Pengguna Hak Terbatas Setup"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:668
-#: src/components/wallet/standard/WalletStandard.tsx:566
+#: src/components/wallet/standard/WalletStandard.tsx:568
 msgid "Receive Address"
 msgstr "Alamat Penerima"
 
@@ -1743,7 +1751,7 @@ msgstr "Jual"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:637
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:798
-#: src/components/wallet/standard/WalletStandard.tsx:527
+#: src/components/wallet/standard/WalletStandard.tsx:529
 msgid "Send"
 msgstr "Kirim"
 
@@ -1802,7 +1810,7 @@ msgstr "Jumlah Yang Dapat Dikeluarkan Per Jarak Waktu"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:392
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:571
-#: src/components/wallet/standard/WalletStandard.tsx:266
+#: src/components/wallet/standard/WalletStandard.tsx:267
 msgid "Spendable Balance"
 msgstr "Saldo yang Tersedia"
 
@@ -1829,6 +1837,7 @@ msgstr "Keadaan"
 #: src/components/fullNode/FullNode.jsx:130
 #: src/components/fullNode/FullNode.jsx:152
 #: src/components/plot/overview/PlotOverviewPlots.tsx:93
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:81
 #: src/components/plotNFT/PlotNFTCard.tsx:96
 #: src/components/pool/PoolOverview.tsx:35
 #: src/components/trading/TradingOverview.jsx:128
@@ -1991,6 +2000,7 @@ msgstr "Plot - plot ini tidak valid, anda sebaiknya menghapus semuanya."
 msgid "This allows you to add a directory that has plots in it. If you have not created any plots, go to the plotting screen."
 msgstr "Anda dapat menambah direktori yang berisikan plot. Apa bila belum membuat plot, silahkan ke halaman pembuatan plot."
 
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:94
 #: src/components/plotNFT/PlotNFTCard.tsx:113
 msgid "This difficulty is an artifically lower difficulty than on the real network, and is used when farming, in order to find more proofs and send them to the pool. The more plots you have, the higher difficulty you will have. However, the difficulty does not affect rewards."
 msgstr ""
@@ -2001,15 +2011,15 @@ msgstr ""
 msgid "This feature is available only from the GUI."
 msgstr "Fitur ini hanya tersedia di GUI."
 
-#: src/components/wallet/standard/WalletStandard.tsx:269
+#: src/components/wallet/standard/WalletStandard.tsx:270
 msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
 msgstr "Ini adalah jumlah Chia yang ada yang bisa anda gunakan untuk transaksi. Ini tidak berikut penghasilan farming yang masih tertahan, transaksi masuk yang masih tertahan, dan Chia yang sudah anda pakai tapi belum terdaftar di blockchain."
 
-#: src/components/wallet/standard/WalletStandard.tsx:318
+#: src/components/wallet/standard/WalletStandard.tsx:319
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
 msgstr "Ini adalah perubahan yang tertahan, perubahan koin yang anda kirim ke diri anda sendiri, tetapi belum ter konfirmasi."
 
-#: src/components/wallet/standard/WalletStandard.tsx:307
+#: src/components/wallet/standard/WalletStandard.tsx:308
 msgid "This is the sum of the incoming and outgoing pending transactions (not yet included into the blockchain). This does not include farming rewards."
 msgstr "Ini ada jumlah dari transaksi masuk dan keluar yang masih dalam antrian (belum terdaftar ke dalam blockchain). Tidak berikut penghasilan dari farming."
 
@@ -2021,18 +2031,20 @@ msgstr "Ini adalah waktu dari ketinggian terakhir sub block."
 msgid "This is the time the block was created by the farmer, which is before it is finalized with a proof of time"
 msgstr "Ini adalah waktu dimana blok di hasilkan oleh farmer, sebelum di finalisasi dengan bukti dari waktu"
 
-#: src/components/wallet/standard/WalletStandard.tsx:257
+#: src/components/wallet/standard/WalletStandard.tsx:258
 msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr "Ini adalah jumlah total Chia di dalam blockchain di pucak terbaru sub blok yang di kontrol oleh kunci privat anda. Termasuk hadiah farming yang masi beku, tapi tidak termasuk transaksi masuk atau keluar yang masih tertahan."
 
-#: src/components/wallet/standard/WalletStandard.tsx:296
+#: src/components/wallet/standard/WalletStandard.tsx:297
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
 msgstr "Ini adalah total saldo + saldo tertahan: total saldo yang akan ada pegang apabila semua transaksi tertahan sudah di konfirmasi."
 
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:111
 #: src/components/plotNFT/PlotNFTCard.tsx:130
 msgid "This is the total number of points this plotNFT has with this pool, since the last payout. The pool will reset the points after making a payout."
 msgstr ""
 
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:126
 #: src/components/plotNFT/PlotNFTCard.tsx:145
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr ""
@@ -2040,6 +2052,10 @@ msgstr ""
 #: src/components/fullNode/FullNode.jsx:134
 msgid "This node is fully caught up and validating the network"
 msgstr "Node ini sudah mempunyai data terbaru dan sudah ikut men validasi dalam jaringan"
+
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:213
+msgid "This plot NFT is from different key. You can still create plots for this plot NFT, but you can not make changes."
+msgstr ""
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:39
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
@@ -2079,7 +2095,7 @@ msgstr "Ke"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:385
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:565
-#: src/components/wallet/standard/WalletStandard.tsx:254
+#: src/components/wallet/standard/WalletStandard.tsx:255
 msgid "Total Balance"
 msgstr "Jumlah Saldo"
 
@@ -2215,7 +2231,7 @@ msgid "View Offer"
 msgstr "Lihat Tawaran"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:586
-#: src/components/wallet/standard/WalletStandard.tsx:287
+#: src/components/wallet/standard/WalletStandard.tsx:288
 msgid "View pending balances"
 msgstr "Lihat saldo pending"
 
@@ -2251,7 +2267,7 @@ msgstr ""
 #~ msgid "Wallet Status"
 #~ msgstr ""
 
-#: src/components/pool/PoolOverview.tsx:156
+#: src/components/pool/PoolOverview.tsx:158
 msgid "Wallet Status:"
 msgstr ""
 
@@ -2407,7 +2423,7 @@ msgstr "Koneksi Full Node Anda"
 msgid "Your Harvester Network"
 msgstr "Jaringan Harvester Anda"
 
-#: src/components/pool/PoolOverview.tsx:135
+#: src/components/pool/PoolOverview.tsx:137
 msgid "Your Pool Overview"
 msgstr ""
 
@@ -2460,7 +2476,7 @@ msgstr "sinkronisasi"
 #~ msgid "{0} User Transaction Fees"
 #~ msgstr "{0} User Transaction Fees"
 
-#: src/components/plotNFT/PlotNFTGraph.tsx:93
+#: src/components/plotNFT/PlotNFTGraph.tsx:109
 msgid "{0} points {1} - {2} hours ago"
 msgstr ""
 
